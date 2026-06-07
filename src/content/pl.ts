@@ -29,7 +29,7 @@ export const content: SiteContent = {
       'Wcześniej: integracje płatnicze w Skandynawii, portale klienta, systemy rejestracyjne dla sektora publicznego — zawsze z naciskiem na integracje wielosystemowe i jakość kodu.',
       'Specjalizacja: architektura chmurowa, mikroserwisy, instalatory cross-platform, CI/CD, PoC-y technologiczne i testy automatyczne.',
     ],
-    note: 'O mnie mówią realizacje poniżej — bez listy pracodawców.',
+    note: 'O mnie mówią realizacje poniżej — bez listy kontrahentów.',
   },
   projects: {
     title: 'Realizacje',

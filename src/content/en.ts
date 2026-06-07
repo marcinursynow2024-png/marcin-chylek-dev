@@ -29,7 +29,7 @@ export const content: SiteContent = {
       'Previously: Nordic payment integrations, customer portals, public-sector registration systems — always focused on multi-system integrations and code quality.',
       'Expertise: cloud architecture, microservices, cross-platform installers, CI/CD, technology PoCs, and automated testing.',
     ],
-    note: 'My work speaks through the projects below — no employer list.',
+    note: 'My work speaks through the projects below — no client list.',
   },
   projects: {
     title: 'Projects',
