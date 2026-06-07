@@ -6,13 +6,22 @@ interface Props {
 }
 
 const { content } = Astro.props;
+const { business } = content;
 const year = new Date().getFullYear();
 ---
 
 <footer class="footer">
   <div class="container footer-inner">
-    <span>&copy; {year} Marcin Chyłek</span>
-    <span>{content.footer.location}</span>
+    <div class="footer-brand">
+      <span>&copy; {year} {business.name}</span>
+      <span class="footer-address">
+        {business.address}, {business.city}
+      </span>
+    </div>
+    <div class="footer-legal">
+      <span>{content.footer.nipLabel} {business.nip}</span>
+      <span>{content.footer.regonLabel} {business.regon}</span>
+    </div>
   </div>
 </footer>
 
@@ -25,8 +34,31 @@ const year = new Date().getFullYear();
   .footer-inner {
     display: flex;
     justify-content: space-between;
-    gap: 1rem;
+    align-items: flex-end;
+    gap: 1.5rem;
     font-size: 0.875rem;
     color: var(--text-tertiary);
+  }
+
+  .footer-brand,
+  .footer-legal {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+
+  .footer-legal {
+    text-align: right;
+  }
+
+  @media (max-width: 640px) {
+    .footer-inner {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .footer-legal {
+      text-align: left;
+    }
   }
 </style>

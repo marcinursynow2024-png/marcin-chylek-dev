@@ -13,7 +13,7 @@ const homePath = content.lang === 'pl' ? '/' : '/en/';
 
 <header class="header">
   <div class="container header-inner">
-    <a href={homePath} class="logo" aria-label="Marcin Chyłek — strona główna">MC</a>
+    <a href={homePath} class="logo" aria-label={`${content.business.name} — strona główna`}>MC</a>
     <nav class="nav" aria-label="Główne menu">
       <a href="#about">{content.nav.about}</a>
       <a href="#projects">{content.nav.projects}</a>

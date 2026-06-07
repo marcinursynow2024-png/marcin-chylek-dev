@@ -3,7 +3,7 @@ import type { SiteContent } from './types';
 export const content: SiteContent = {
   lang: 'en',
   meta: {
-    title: 'Marcin Chyłek — Senior C# .NET Developer',
+    title: 'Marcin Chyłek Systemy IT — Senior C# .NET Developer',
     description:
       'Senior C# .NET Developer / Team Lead. Enterprise systems: IoT, payment integrations, public sector. Azure, .NET 8, microservices.',
   },
@@ -15,7 +15,8 @@ export const content: SiteContent = {
   },
   hero: {
     badge: 'Open to B2B contracts',
-    name: 'Marcin Chyłek',
+    name: 'Marcin Chyłek Systemy IT',
+    photoAlt: 'Marcin Chyłek',
     role: 'Senior C# .NET Developer / Team Lead',
     lead: '20 years in enterprise systems: corporate IoT, payment integrations, public sector. Currently building an AV/IoT platform for enterprises. SOLID, clean code, cloud architecture.',
     ctaContact: 'Get in touch',
@@ -93,8 +94,18 @@ export const content: SiteContent = {
     title: 'Contact',
     text: 'Open to B2B contracts and long-term engagements. Drop me a line — I reply within 24 hours.',
     email: 'marcin.ursynow.2024@gmail.com',
+    nipLabel: 'Tax ID (NIP)',
+    regonLabel: 'REGON',
+  },
+  business: {
+    name: 'Marcin Chyłek Systemy IT',
+    nip: '9511909348',
+    regon: '147265434',
+    address: 'ul. Dereniowa 13/60',
+    city: '02-776 Warszawa',
   },
   footer: {
-    location: 'Warsaw, Poland',
+    nipLabel: 'NIP',
+    regonLabel: 'REGON',
   },
 };

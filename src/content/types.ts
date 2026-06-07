@@ -19,6 +19,7 @@ export interface SiteContent {
   hero: {
     badge: string;
     name: string;
+    photoAlt: string;
     role: string;
     lead: string;
     ctaContact: string;
@@ -41,8 +42,18 @@ export interface SiteContent {
     title: string;
     text: string;
     email: string;
+    nipLabel: string;
+    regonLabel: string;
+  };
+  business: {
+    name: string;
+    nip: string;
+    regon: string;
+    address: string;
+    city: string;
   };
   footer: {
-    location: string;
+    nipLabel: string;
+    regonLabel: string;
   };
 }

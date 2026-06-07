@@ -6,6 +6,7 @@ interface Props {
 }
 
 const { content } = Astro.props;
+const { business } = content;
 const linkedIn = 'https://www.linkedin.com/in/marcin-chy%C5%82ek-00a4ab4/';
 ---
 
@@ -14,6 +15,14 @@ const linkedIn = 'https://www.linkedin.com/in/marcin-chy%C5%82ek-00a4ab4/';
     <div class="contact-box">
       <h2 class="section-title">{content.contact.title}</h2>
       <p>{content.contact.text}</p>
+      <div class="contact-details">
+        <p class="business-name">{business.name}</p>
+        <p>{business.address}</p>
+        <p>{business.city}</p>
+        <p>
+          {content.contact.nipLabel} {business.nip} · {content.contact.regonLabel} {business.regon}
+        </p>
+      </div>
       <div class="contact-links">
         <a href={`mailto:${content.contact.email}`}>{content.contact.email}</a>
         <a href={linkedIn} target="_blank" rel="noopener noreferrer">LinkedIn</a>
@@ -34,10 +43,27 @@ const linkedIn = 'https://www.linkedin.com/in/marcin-chy%C5%82ek-00a4ab4/';
     margin-bottom: 1rem;
   }
 
-  .contact-box p {
+  .contact-box > p {
     margin: 0 0 1.25rem;
     color: var(--text-muted);
     max-width: var(--max-text);
+  }
+
+  .contact-details {
+    margin: 0 0 1.25rem;
+    font-size: 0.9375rem;
+    color: var(--text-muted);
+    line-height: 1.6;
+  }
+
+  .contact-details p {
+    margin: 0;
+  }
+
+  .business-name {
+    color: var(--text);
+    font-weight: 500;
+    margin-bottom: 0.25rem !important;
   }
 
   .contact-links {
