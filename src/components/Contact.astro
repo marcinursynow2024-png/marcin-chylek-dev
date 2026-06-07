@@ -1,0 +1,49 @@
+---
+import type { SiteContent } from '../content/types';
+
+interface Props {
+  content: SiteContent;
+}
+
+const { content } = Astro.props;
+const linkedIn = 'https://www.linkedin.com/in/marcin-chy%C5%82ek-00a4ab4/';
+---
+
+<section id="contact" class="section fade-in">
+  <div class="container">
+    <div class="contact-box">
+      <h2 class="section-title">{content.contact.title}</h2>
+      <p>{content.contact.text}</p>
+      <div class="contact-links">
+        <a href={`mailto:${content.contact.email}`}>{content.contact.email}</a>
+        <a href={linkedIn} target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .contact-box {
+    background: var(--bg-elevated);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 2rem;
+  }
+
+  .contact-box .section-title {
+    margin-bottom: 1rem;
+  }
+
+  .contact-box p {
+    margin: 0 0 1.25rem;
+    color: var(--text-muted);
+    max-width: var(--max-text);
+  }
+
+  .contact-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    font-size: 0.9375rem;
+  }
+</style>

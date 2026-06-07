@@ -1,0 +1,99 @@
+---
+import type { SiteContent } from '../content/types';
+
+interface Props {
+  content: SiteContent;
+}
+
+const { content } = Astro.props;
+const linkedIn = 'https://www.linkedin.com/in/marcin-chy%C5%82ek-00a4ab4/';
+const photoSrc = `${import.meta.env.BASE_URL}marcin-chylek.jpg`;
+---
+
+<section class="hero section">
+  <div class="container hero-grid">
+    <div class="hero-content fade-in">
+      <span class="badge">{content.hero.badge}</span>
+      <h1>{content.hero.name}</h1>
+      <p class="role">{content.hero.role}</p>
+      <p class="lead">{content.hero.lead}</p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-primary">{content.hero.ctaContact}</a>
+        <a href={linkedIn} class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
+          {content.hero.ctaLinkedIn}
+        </a>
+      </div>
+    </div>
+    <div class="hero-photo fade-in">
+      <img
+        src={photoSrc}
+        alt={content.hero.name}
+        class="photo"
+        width="280"
+        height="280"
+        loading="eager"
+      />
+    </div>
+  </div>
+</section>
+
+<style>
+  .hero {
+    padding-block: 5rem 4rem;
+  }
+
+  .hero-grid {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 3rem;
+    align-items: center;
+  }
+
+  .hero-content h1 {
+    margin: 1rem 0 0.5rem;
+    font-size: clamp(2rem, 5vw, 3rem);
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    line-height: 1.15;
+  }
+
+  .role {
+    margin: 0 0 1rem;
+    font-size: 1.125rem;
+    color: var(--text-muted);
+  }
+
+  .lead {
+    margin: 0 0 1.5rem;
+    max-width: var(--max-text);
+    color: var(--text-muted);
+  }
+
+  .hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+  }
+
+  .photo {
+    width: min(280px, 100%);
+    aspect-ratio: 1;
+    object-fit: cover;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+  }
+
+  @media (max-width: 768px) {
+    .hero-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .hero-photo {
+      order: -1;
+    }
+
+    .photo {
+      width: 120px;
+    }
+  }
+</style>

@@ -1,0 +1,26 @@
+---
+import type { SiteContent } from '../content/types';
+
+interface Props {
+  content: SiteContent;
+}
+
+const { content } = Astro.props;
+---
+
+<section id="skills" class="section section-alt fade-in">
+  <div class="container">
+    <h2 class="section-title">{content.skills.title}</h2>
+    <div class="skills">
+      {content.skills.items.map((skill) => <span class="tag">{skill}</span>)}
+    </div>
+  </div>
+</section>
+
+<style>
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+</style>

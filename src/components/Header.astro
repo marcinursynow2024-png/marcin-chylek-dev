@@ -1,0 +1,120 @@
+---
+import type { SiteContent } from '../content/types';
+import ThemeToggle from './ThemeToggle';
+import LangSwitch from './LangSwitch';
+
+interface Props {
+  content: SiteContent;
+}
+
+const { content } = Astro.props;
+const homePath = content.lang === 'pl' ? '/' : '/en/';
+---
+
+<header class="header">
+  <div class="container header-inner">
+    <a href={homePath} class="logo" aria-label="Marcin Chyłek — strona główna">MC</a>
+    <nav class="nav" aria-label="Główne menu">
+      <a href="#about">{content.nav.about}</a>
+      <a href="#projects">{content.nav.projects}</a>
+      <a href="#skills">{content.nav.skills}</a>
+      <a href="#contact">{content.nav.contact}</a>
+    </nav>
+    <div class="header-actions">
+      <LangSwitch client:load currentLang={content.lang} />
+      <ThemeToggle client:load />
+    </div>
+  </div>
+</header>
+
+<style>
+  .header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: color-mix(in srgb, var(--bg-primary) 90%, transparent);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid var(--border);
+  }
+
+  .header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding-block: 0.875rem;
+  }
+
+  .logo {
+    font-weight: 700;
+    font-size: 0.9375rem;
+    letter-spacing: 0.05em;
+    color: var(--text-primary);
+    text-decoration: none;
+  }
+
+  .logo:hover {
+    color: var(--accent);
+  }
+
+  .nav {
+    display: flex;
+    gap: 1.25rem;
+  }
+
+  .nav a {
+    font-size: 0.875rem;
+    color: var(--text-muted);
+    text-decoration: none;
+  }
+
+  .nav a:hover {
+    color: var(--accent);
+  }
+
+  .header-actions {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  :global(.lang-switch) {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 2rem;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    border-radius: var(--radius-pill);
+    border: 1px solid var(--border);
+    color: var(--accent);
+    text-decoration: none;
+  }
+
+  :global(.icon-btn) {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    padding: 0;
+    font-size: 0.875rem;
+    background: transparent;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    color: var(--text-muted);
+    cursor: pointer;
+  }
+
+  :global(.icon-btn:hover) {
+    border-color: var(--accent);
+    color: var(--accent);
+  }
+
+  @media (max-width: 640px) {
+    .nav {
+      display: none;
+    }
+  }
+</style>

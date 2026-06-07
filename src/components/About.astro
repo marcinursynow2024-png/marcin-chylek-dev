@@ -1,0 +1,36 @@
+---
+import type { SiteContent } from '../content/types';
+
+interface Props {
+  content: SiteContent;
+}
+
+const { content } = Astro.props;
+---
+
+<section id="about" class="section section-alt fade-in">
+  <div class="container">
+    <h2 class="section-title">{content.about.title}</h2>
+    <div class="about-text">
+      {content.about.paragraphs.map((p) => <p>{p}</p>)}
+      <p class="note">{content.about.note}</p>
+    </div>
+  </div>
+</section>
+
+<style>
+  .about-text {
+    max-width: var(--max-text);
+  }
+
+  .about-text p {
+    margin: 0 0 1rem;
+    color: var(--text-muted);
+  }
+
+  .note {
+    font-size: 0.875rem;
+    color: var(--text-tertiary) !important;
+    font-style: italic;
+  }
+</style>
