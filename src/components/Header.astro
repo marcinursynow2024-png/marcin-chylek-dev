@@ -1,5 +1,6 @@
 ---
 import type { SiteContent } from '../content/types';
+import { getLocalizedPath } from '../utils/paths';
 import ThemeToggle from './ThemeToggle';
 import LangSwitch from './LangSwitch';
 
@@ -8,7 +9,7 @@ interface Props {
 }
 
 const { content } = Astro.props;
-const homePath = content.lang === 'pl' ? '/' : '/en/';
+const homePath = getLocalizedPath(content.lang);
 ---
 
 <header class="header">

@@ -1,5 +1,6 @@
 ---
 import type { SiteContent } from '../content/types';
+import { getLocalizedPath } from '../utils/paths';
 import '../styles/global.css';
 
 interface Props {
@@ -8,7 +9,7 @@ interface Props {
 }
 
 const { content, lang } = Astro.props;
-const canonical = lang === 'pl' ? Astro.site : new URL('/en/', Astro.site);
+const canonical = new URL(getLocalizedPath(lang), Astro.site);
 ---
 
 <!doctype html>
