@@ -1,51 +1,135 @@
 {
-  "data": "2026-09-19",
+  "okres": {
+    "od": "2026-09-17",
+    "do": "2026-09-19"
+  },
+  "miasto": "Warszawa",
   "waluta": "PLN",
-  "dowodFotograficzny": "paragony-oryginal.jpg",
-  "sumaCalkowita": 173.93,
+  "sumaCalkowita": 343.3,
+  "dowodyFotograficzne": [
+    "paragony-2026-09-17.jpg",
+    "paragony-oryginal.jpg",
+    "paragon-putka.jpg"
+  ],
+  "sumaWgDnia": [
+    { "data": "2026-09-17", "suma": 107.37, "liczbaParagonow": 4 },
+    { "data": "2026-09-19", "suma": 235.93, "liczbaParagonow": 5 }
+  ],
   "kategorie": [
     {
-      "nazwa": "Warzywa",
-      "suma": 52.3,
+      "nazwa": "Wypieki słodkie",
+      "suma": 145.79,
       "pozycje": [
-        { "sklep": "Gaerfild", "nazwa": "Warzywa", "ilosc": 1.0, "jednostka": "szt", "kwota": 49.3 },
-        { "sklep": "Gaerfild", "nazwa": "Warzywa", "ilosc": 1.0, "jednostka": "szt", "kwota": 3.0 }
+        { "data": "2026-09-17", "sklep": "Słodki Grzech", "nazwa": "Drożdżówka ze śliwkami", "ilosc": 4, "jednostka": "szt", "cenaJednostkowa": 7.9, "obnizka": -15.8, "kwota": 15.8 },
+        { "data": "2026-09-19", "sklep": "Cichowscy", "nazwa": "Sernik Stracciatella", "ilosc": 0.278, "jednostka": "kg", "cenaJednostkowa": 52.9, "kwota": 14.71 },
+        { "data": "2026-09-19", "sklep": "Cichowscy", "nazwa": "Pączki nadziane z porzeczką", "ilosc": 4, "jednostka": "szt", "cenaJednostkowa": 6.9, "kwota": 27.6 },
+        { "data": "2026-09-19", "sklep": "Cichowscy", "nazwa": "Pączki nadziane z różą", "ilosc": 3, "jednostka": "szt", "cenaJednostkowa": 8.56, "kwota": 25.68 },
+        { "data": "2026-09-19", "sklep": "Putka", "nazwa": "Torcik czekoladowy 700g", "ilosc": 1, "jednostka": "szt", "cenaJednostkowa": 62.0, "kwota": 62.0 }
+      ]
+    },
+    {
+      "nazwa": "Warzywa",
+      "suma": 60.3,
+      "pozycje": [
+        { "data": "2026-09-17", "sklep": "Wiesław Ryciuk — Warzywa i Owoce", "nazwa": "Szczypior", "ilosc": 1, "jednostka": "szt", "kwota": 4.0 },
+        { "data": "2026-09-17", "sklep": "Wiesław Ryciuk — Warzywa i Owoce", "nazwa": "Rzodkiewka", "ilosc": 1, "jednostka": "szt", "kwota": 4.0 },
+        { "data": "2026-09-19", "sklep": "Gaerfild", "nazwa": "Warzywa", "ilosc": 1, "jednostka": "szt", "kwota": 49.3 },
+        { "data": "2026-09-19", "sklep": "Gaerfild", "nazwa": "Warzywa", "ilosc": 1, "jednostka": "szt", "kwota": 3.0 }
+      ]
+    },
+    {
+      "nazwa": "Artykuły biurowe",
+      "suma": 47.7,
+      "pozycje": [
+        { "data": "2026-09-17", "sklep": "E.Leclerc", "nazwa": "Teczka OXF", "ilosc": 1, "jednostka": "szt", "kwota": 19.17 },
+        { "data": "2026-09-17", "sklep": "E.Leclerc", "nazwa": "Papier A4 Donau", "ilosc": 1, "jednostka": "szt", "kwota": 15.99 },
+        { "data": "2026-09-17", "sklep": "E.Leclerc", "nazwa": "Klej w sztyfcie", "ilosc": 1, "jednostka": "szt", "kwota": 2.69 },
+        { "data": "2026-09-17", "sklep": "E.Leclerc", "nazwa": "Nożyczki 12.5cm", "ilosc": 1, "jednostka": "szt", "kwota": 3.86 },
+        { "data": "2026-09-17", "sklep": "E.Leclerc", "nazwa": "Zeszyt A4 32k", "ilosc": 1, "jednostka": "szt", "kwota": 5.99 }
       ]
     },
     {
       "nazwa": "Mięso",
       "suma": 32.52,
       "pozycje": [
-        { "sklep": "GROT", "nazwa": "Gulasz wołowy", "ilosc": 0.31, "jednostka": "kg", "cenaJednostkowa": 73.8, "kwota": 22.88 },
-        { "sklep": "GROT", "nazwa": "Mięso wp. od szynki", "ilosc": 0.314, "jednostka": "kg", "cenaJednostkowa": 30.7, "kwota": 9.64 }
+        { "data": "2026-09-19", "sklep": "GROT", "nazwa": "Gulasz wołowy", "ilosc": 0.31, "jednostka": "kg", "cenaJednostkowa": 73.8, "kwota": 22.88 },
+        { "data": "2026-09-19", "sklep": "GROT", "nazwa": "Mięso wp. od szynki", "ilosc": 0.314, "jednostka": "kg", "cenaJednostkowa": 30.7, "kwota": 9.64 }
       ]
     },
     {
       "nazwa": "Pieczywo",
       "suma": 21.12,
       "pozycje": [
-        { "sklep": "Piekarnia Cichowscy", "nazwa": "Bajgiel z sezamem i siemieniem", "ilosc": 2, "jednostka": "szt", "cenaJednostkowa": 4.1, "kwota": 8.2 },
-        { "sklep": "Piekarnia Cichowscy", "nazwa": "Chleb Zaścianek", "ilosc": 0.564, "jednostka": "kg", "cenaJednostkowa": 22.9, "kwota": 12.92 }
+        { "data": "2026-09-19", "sklep": "Cichowscy", "nazwa": "Bajgiel z sezamem i siemieniem", "ilosc": 2, "jednostka": "szt", "cenaJednostkowa": 4.1, "kwota": 8.2 },
+        { "data": "2026-09-19", "sklep": "Cichowscy", "nazwa": "Chleb Zaścianek", "ilosc": 0.564, "jednostka": "kg", "cenaJednostkowa": 22.9, "kwota": 12.92 }
       ]
     },
     {
-      "nazwa": "Wypieki słodkie",
-      "suma": 67.99,
+      "nazwa": "Nabiał",
+      "suma": 12.2,
       "pozycje": [
-        { "sklep": "Piekarnia Cichowscy", "nazwa": "Sernik Stracciatella", "ilosc": 0.278, "jednostka": "kg", "cenaJednostkowa": 52.9, "kwota": 14.71 },
-        { "sklep": "Piekarnia Cichowscy", "nazwa": "Pączki nadziane z porzeczką", "ilosc": 4, "jednostka": "szt", "cenaJednostkowa": 6.9, "kwota": 27.6 },
-        { "sklep": "Piekarnia Cichowscy", "nazwa": "Pączki nadziane z różą", "ilosc": 3, "jednostka": "szt", "cenaJednostkowa": 8.56, "kwota": 25.68 }
+        { "data": "2026-09-17", "sklep": "Wiesław Ryciuk — Warzywa i Owoce", "nazwa": "Nabiał", "ilosc": 1, "jednostka": "szt", "kwota": 12.2 }
+      ]
+    },
+    {
+      "nazwa": "Przetwory spożywcze",
+      "suma": 9.68,
+      "pozycje": [
+        { "data": "2026-09-17", "sklep": "E.Leclerc", "nazwa": "Pędy bambusa", "ilosc": 1, "jednostka": "szt", "kwota": 4.99 },
+        { "data": "2026-09-17", "sklep": "E.Leclerc", "nazwa": "Sos sojowy 150ml", "ilosc": 1, "jednostka": "szt", "kwota": 4.69 }
+      ]
+    },
+    {
+      "nazwa": "Napoje",
+      "suma": 9.0,
+      "pozycje": [
+        { "data": "2026-09-17", "sklep": "Wiesław Ryciuk — Warzywa i Owoce", "nazwa": "Napoje", "ilosc": 3, "jednostka": "szt", "cenaJednostkowa": 3.0, "kwota": 9.0 }
+      ]
+    },
+    {
+      "nazwa": "Przekąski",
+      "suma": 4.99,
+      "pozycje": [
+        { "data": "2026-09-17", "sklep": "Żabka", "nazwa": "Chrupki Palionki 70g", "ilosc": 1, "jednostka": "szt", "kwota": 4.99 }
       ]
     }
   ],
   "paragony": [
     {
-      "sklep": "Robert Król F.H. Gaerfild",
+      "sklep": "Słodki Grzech Sp. z o.o.",
+      "adres": "Al. KEN 92, 02-777 Warszawa",
+      "nip": "5272604424",
+      "dataGodzina": "2026-09-17T11:32",
+      "suma": 15.8,
+      "platnosc": "karta",
+      "dowod": "paragony-2026-09-17.jpg"
+    },
+    {
+      "sklep": "Żabka ZA810 / PHU Paweł Jóźwiak",
       "adres": "Dereniowa 6, 02-776 Warszawa",
-      "nip": "7342609937",
-      "dataGodzina": "2026-09-19T14:16",
-      "suma": 49.3,
-      "platnosc": "karta"
+      "nip": "5681589521",
+      "dataGodzina": "2026-09-17T12:10",
+      "suma": 4.99,
+      "platnosc": "karta",
+      "dowod": "paragony-2026-09-17.jpg"
+    },
+    {
+      "sklep": "Wiesław Ryciuk — Warzywa i Owoce",
+      "adres": "Dereniowa 7, 02-776 Warszawa",
+      "nip": "9511030952",
+      "dataGodzina": "2026-09-17T12:20",
+      "suma": 29.2,
+      "platnosc": "gotówka",
+      "dowod": "paragony-2026-09-17.jpg"
+    },
+    {
+      "sklep": "E.Leclerc / IMMOMOK Sp. z o.o.",
+      "adres": "Jana Ciszewskiego 15, 02-777 Warszawa",
+      "nip": "5271023642",
+      "dataGodzina": "2026-09-17T17:25",
+      "suma": 57.38,
+      "platnosc": "karta",
+      "dowod": "paragony-2026-09-17.jpg"
     },
     {
       "sklep": "SEJ Sp. z o.o. — Delikatesy Mięsne GROT",
@@ -53,15 +137,8 @@
       "nip": "5342655758",
       "dataGodzina": "2026-09-19T13:54",
       "suma": 32.52,
-      "platnosc": "karta"
-    },
-    {
-      "sklep": "Robert Król F.H. Gaerfild",
-      "adres": "Dereniowa 6, 02-776 Warszawa",
-      "nip": "7342609937",
-      "dataGodzina": "2026-09-19T14:18",
-      "suma": 3.0,
-      "platnosc": "karta"
+      "platnosc": "karta",
+      "dowod": "paragony-oryginal.jpg"
     },
     {
       "sklep": "Piekarnia K. i A. Cichowscy, E. Federowicz Sp. z o.o.",
@@ -69,7 +146,36 @@
       "nip": "1130026398",
       "dataGodzina": "2026-09-19T14:04",
       "suma": 89.11,
-      "platnosc": "karta"
+      "platnosc": "karta",
+      "dowod": "paragony-oryginal.jpg"
+    },
+    {
+      "sklep": "Robert Król F.H. Gaerfild",
+      "adres": "Dereniowa 6, 02-776 Warszawa",
+      "nip": "7342609937",
+      "dataGodzina": "2026-09-19T14:16",
+      "suma": 49.3,
+      "platnosc": "karta",
+      "dowod": "paragony-oryginal.jpg"
+    },
+    {
+      "sklep": "Robert Król F.H. Gaerfild",
+      "adres": "Dereniowa 6, 02-776 Warszawa",
+      "nip": "7342609937",
+      "dataGodzina": "2026-09-19T14:18",
+      "suma": 3.0,
+      "platnosc": "karta",
+      "dowod": "paragony-oryginal.jpg"
+    },
+    {
+      "sklep": "Putka Sp. z o.o.",
+      "adres": "Dereniowa 10, 02-676 Warszawa",
+      "nip": "1130005947",
+      "dataGodzina": "2026-09-19T14:32",
+      "suma": 62.0,
+      "platnosc": "karta",
+      "dowod": "paragon-putka.jpg",
+      "nrParagonu": "32626"
     }
   ]
 }
