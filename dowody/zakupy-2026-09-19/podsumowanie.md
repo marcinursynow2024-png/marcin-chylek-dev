@@ -65,8 +65,7 @@
 | 18.09.2026 | Pasztet indyk+gęś (0,302 kg) | 11,17 zł |
 | 18.09.2026 | Kiełbasa jałowcowa (0,152 kg) | 10,50 zł |
 | 18.09.2026 | Pasztet indyk+gęś (0,354 kg) | 13,09 zł |
-| 19.09.2026 | Gulasz wołowy (0,31 kg) | 22,88 zł |
-| 19.09.2026 | Mięso wp. od szynki (0,314 kg) | 9,64 zł |
+| 19.09.2026 | Mięso mielone wieprzowo-wołowe (0,624 kg) — na paragonie: Gulasz wołowy 22,88 zł; Mięso wp. od szynki 9,64 zł | 32,52 zł |
 
 ### Artykuły biurowe — 74,44 zł
 
