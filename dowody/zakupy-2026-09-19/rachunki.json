@@ -7,6 +7,7 @@
   "waluta": "PLN",
   "sumaCalkowita": 658.2,
   "liczbaParagonow": 10,
+  "zasadaWalidacji": "Dla każdego paragonu: suma(pozycje) == SUMA na paragonie. Inaczej błąd.",
   "dowodyFotograficzne": [
     "paragony-2026-09-17.jpg",
     "paragon-leclerc-2026-09-18.jpg",
@@ -30,6 +31,78 @@
       "liczbaParagonow": 5
     }
   ],
+  "walidacjaParagonow": [
+    {
+      "id": "2026-09-17-slodki",
+      "sklep": "Słodki Grzech Sp. z o.o.",
+      "sumaPozycji": 15.8,
+      "sumaParagonu": 15.8,
+      "zgadzaSie": true
+    },
+    {
+      "id": "2026-09-17-zabka",
+      "sklep": "Żabka ZA810 / PHU Paweł Jóźwiak",
+      "sumaPozycji": 4.99,
+      "sumaParagonu": 4.99,
+      "zgadzaSie": true
+    },
+    {
+      "id": "2026-09-17-warzywa",
+      "sklep": "Wiesław Ryciuk — Warzywa i Owoce",
+      "sumaPozycji": 29.2,
+      "sumaParagonu": 29.2,
+      "zgadzaSie": true
+    },
+    {
+      "id": "2026-09-17-leclerc",
+      "sklep": "E.Leclerc / IMMOMOK Sp. z o.o.",
+      "sumaPozycji": 57.38,
+      "sumaParagonu": 57.38,
+      "zgadzaSie": true
+    },
+    {
+      "id": "2026-09-18-leclerc",
+      "sklep": "E.Leclerc Hipermarket Ursynów",
+      "sumaPozycji": 314.9,
+      "sumaParagonu": 314.9,
+      "zgadzaSie": true
+    },
+    {
+      "id": "2026-09-19-grot",
+      "sklep": "SEJ Sp. z o.o. — Delikatesy Mięsne GROT",
+      "sumaPozycji": 32.52,
+      "sumaParagonu": 32.52,
+      "zgadzaSie": true
+    },
+    {
+      "id": "2026-09-19-cichowscy",
+      "sklep": "Piekarnia K. i A. Cichowscy",
+      "sumaPozycji": 89.11,
+      "sumaParagonu": 89.11,
+      "zgadzaSie": true
+    },
+    {
+      "id": "2026-09-19-gaerfild-1",
+      "sklep": "Robert Król F.H. Gaerfild",
+      "sumaPozycji": 49.3,
+      "sumaParagonu": 49.3,
+      "zgadzaSie": true
+    },
+    {
+      "id": "2026-09-19-gaerfild-2",
+      "sklep": "Robert Król F.H. Gaerfild",
+      "sumaPozycji": 3.0,
+      "sumaParagonu": 3.0,
+      "zgadzaSie": true
+    },
+    {
+      "id": "2026-09-19-putka",
+      "sklep": "Putka Sp. z o.o.",
+      "sumaPozycji": 62.0,
+      "sumaParagonu": 62.0,
+      "zgadzaSie": true
+    }
+  ],
   "kategorie": [
     {
       "nazwa": "Wypieki słodkie",
@@ -37,53 +110,64 @@
       "pozycje": [
         {
           "data": "2026-09-17",
-          "sklep": "Słodki Grzech",
+          "sklep": "Słodki Grzech Sp. z o.o.",
           "nazwa": "Drożdżówka ze śliwkami",
+          "nazwaNaParagonie": "Drożdżówka ze śliwkami",
+          "kwota": 31.6,
           "ilosc": 4,
-          "jednostka": "szt",
-          "obnizka": -15.8,
-          "kwota": 15.8
+          "jednostka": "szt"
+        },
+        {
+          "data": "2026-09-17",
+          "sklep": "Słodki Grzech Sp. z o.o.",
+          "nazwa": "Obniżka",
+          "nazwaNaParagonie": "Obniżka",
+          "kwota": -15.8
         },
         {
           "data": "2026-09-18",
-          "sklep": "E.Leclerc",
+          "sklep": "E.Leclerc Hipermarket Ursynów",
           "nazwa": "Donut z nadz. czek.",
+          "nazwaNaParagonie": "Donut z nadz. czek.",
+          "kwota": 16.73,
           "ilosc": 7,
-          "jednostka": "szt",
-          "cenaJednostkowa": 2.39,
-          "kwota": 16.73
+          "jednostka": "szt"
         },
         {
           "data": "2026-09-19",
-          "sklep": "Cichowscy",
+          "sklep": "Piekarnia K. i A. Cichowscy",
           "nazwa": "Sernik Stracciatella",
+          "nazwaNaParagonie": "Sernik Stracciatella",
+          "kwota": 14.71,
           "ilosc": 0.278,
-          "jednostka": "kg",
-          "kwota": 14.71
+          "jednostka": "kg"
         },
         {
           "data": "2026-09-19",
-          "sklep": "Cichowscy",
+          "sklep": "Piekarnia K. i A. Cichowscy",
           "nazwa": "Pączki nadziane z porzeczką",
+          "nazwaNaParagonie": "Pączki nadziane z porzeczką",
+          "kwota": 27.6,
           "ilosc": 4,
-          "jednostka": "szt",
-          "kwota": 27.6
+          "jednostka": "szt"
         },
         {
           "data": "2026-09-19",
-          "sklep": "Cichowscy",
+          "sklep": "Piekarnia K. i A. Cichowscy",
           "nazwa": "Pączki nadziane z różą",
+          "nazwaNaParagonie": "Pączki nadziane z różą",
+          "kwota": 25.68,
           "ilosc": 3,
-          "jednostka": "szt",
-          "kwota": 25.68
+          "jednostka": "szt"
         },
         {
           "data": "2026-09-19",
-          "sklep": "Putka",
+          "sklep": "Putka Sp. z o.o.",
           "nazwa": "Torcik czekoladowy 700g",
+          "nazwaNaParagonie": "Torcik czekoladowy 700g",
+          "kwota": 62.0,
           "ilosc": 1,
-          "jednostka": "szt",
-          "kwota": 62.0
+          "jednostka": "szt"
         }
       ]
     },
@@ -92,82 +176,81 @@
       "suma": 99.43,
       "pozycje": [
         {
-          "data": "2026-09-19",
-          "sklep": "GROT",
-          "nazwa": "Mięso mielone wieprzowo-wołowe",
-          "ilosc": 0.624,
-          "jednostka": "kg",
-          "kwota": 32.52,
-          "naParagonie": [
-            {
-              "nazwa": "Gulasz wołowy",
-              "ilosc": 0.31,
-              "jednostka": "kg",
-              "kwota": 22.88
-            },
-            {
-              "nazwa": "Mięso wp. od szynki",
-              "ilosc": 0.314,
-              "jednostka": "kg",
-              "kwota": 9.64
-            }
-          ]
-        },
-        {
           "data": "2026-09-18",
-          "sklep": "E.Leclerc",
+          "sklep": "E.Leclerc Hipermarket Ursynów",
           "nazwa": "Kiełbasa myśliwska",
+          "nazwaNaParagonie": "Kiełbasa myśliwska",
+          "kwota": 10.22,
           "ilosc": 0.148,
-          "jednostka": "kg",
-          "kwota": 10.22
+          "jednostka": "kg"
         },
         {
           "data": "2026-09-18",
-          "sklep": "E.Leclerc",
+          "sklep": "E.Leclerc Hipermarket Ursynów",
           "nazwa": "Parówki Skol 140",
-          "ilosc": 1,
-          "jednostka": "szt",
+          "nazwaNaParagonie": "Parówki Skol 140",
           "kwota": 3.0
         },
         {
           "data": "2026-09-18",
-          "sklep": "E.Leclerc",
+          "sklep": "E.Leclerc Hipermarket Ursynów",
           "nazwa": "Parówki kurczęce",
-          "ilosc": 1,
-          "jednostka": "szt",
+          "nazwaNaParagonie": "Parówki kurczęce",
           "kwota": 6.45
         },
         {
           "data": "2026-09-18",
-          "sklep": "E.Leclerc",
+          "sklep": "E.Leclerc Hipermarket Ursynów",
           "nazwa": "Makrela wędzona",
+          "nazwaNaParagonie": "Makrela wędzona",
+          "kwota": 12.48,
           "ilosc": 0.26,
-          "jednostka": "kg",
-          "kwota": 12.48
+          "jednostka": "kg"
         },
         {
           "data": "2026-09-18",
-          "sklep": "E.Leclerc",
+          "sklep": "E.Leclerc Hipermarket Ursynów",
           "nazwa": "Pasztet indyk+gęś",
+          "nazwaNaParagonie": "Pasztet indyk+gęś",
+          "kwota": 11.17,
           "ilosc": 0.302,
-          "jednostka": "kg",
-          "kwota": 11.17
+          "jednostka": "kg"
         },
         {
           "data": "2026-09-18",
-          "sklep": "E.Leclerc",
+          "sklep": "E.Leclerc Hipermarket Ursynów",
           "nazwa": "Kiełbasa jałowcowa",
+          "nazwaNaParagonie": "Kiełbasa jałowcowa",
+          "kwota": 10.5,
           "ilosc": 0.152,
-          "jednostka": "kg",
-          "kwota": 10.5
+          "jednostka": "kg"
         },
         {
           "data": "2026-09-18",
-          "sklep": "E.Leclerc",
+          "sklep": "E.Leclerc Hipermarket Ursynów",
           "nazwa": "Pasztet indyk+gęś",
+          "nazwaNaParagonie": "Pasztet indyk+gęś",
+          "kwota": 13.09,
           "ilosc": 0.354,
-          "jednostka": "kg",
-          "kwota": 13.09
+          "jednostka": "kg"
+        },
+        {
+          "data": "2026-09-19",
+          "sklep": "SEJ Sp. z o.o.",
+          "nazwa": "Mięso mielone wieprzowo-wołowe (część wołowa / jak na paragonie)",
+          "nazwaNaParagonie": "Gulasz wołowy",
+          "kwota": 22.88,
+          "ilosc": 0.31,
+          "jednostka": "kg"
+        },
+        {
+          "data": "2026-09-19",
+          "sklep": "SEJ Sp. z o.o.",
+          "nazwa": "Mięso mielone wieprzowo-wołowe (część wieprzowa / jak na paragonie)",
+          "nazwaNaParagonie": "Mięso wp. od szynki",
+          "kwota": 9.64,
+          "ilosc": 0.314,
+          "jednostka": "kg"
         }
       ]
     },
@@ -178,49 +261,57 @@
         {
           "data": "2026-09-17",
           "sklep": "E.Leclerc",
-          "nazwa": "Teczka OXF",
+          "nazwa": "OXF Teczka",
+          "nazwaNaParagonie": "OXF Teczka",
           "kwota": 19.17
         },
         {
           "data": "2026-09-17",
           "sklep": "E.Leclerc",
-          "nazwa": "Papier A4 Donau",
+          "nazwa": "Donau Papier A4",
+          "nazwaNaParagonie": "Donau Papier A4",
           "kwota": 15.99
         },
         {
           "data": "2026-09-17",
           "sklep": "E.Leclerc",
           "nazwa": "Klej w sztyfcie",
+          "nazwaNaParagonie": "Klej w sztyfcie",
           "kwota": 2.69
         },
         {
           "data": "2026-09-17",
           "sklep": "E.Leclerc",
-          "nazwa": "Nożyczki 12.5cm",
+          "nazwa": "Nożyczki 12,5 cm",
+          "nazwaNaParagonie": "Nożyczki 12,5 cm",
           "kwota": 3.86
         },
         {
           "data": "2026-09-17",
           "sklep": "E.Leclerc",
           "nazwa": "Zeszyt A4 32k",
+          "nazwaNaParagonie": "Zeszyt A4 32k",
           "kwota": 5.99
         },
         {
           "data": "2026-09-18",
-          "sklep": "E.Leclerc",
-          "nazwa": "Papier A4 Donau",
-          "kwota": 15.99
-        },
-        {
-          "data": "2026-09-18",
-          "sklep": "E.Leclerc",
+          "sklep": "E.Leclerc Hipermarket Ursynów",
           "nazwa": "Długopis żelowy",
+          "nazwaNaParagonie": "Długopis żelowy",
           "kwota": 5.49
         },
         {
           "data": "2026-09-18",
-          "sklep": "E.Leclerc",
+          "sklep": "E.Leclerc Hipermarket Ursynów",
+          "nazwa": "Donau Papier A4",
+          "nazwaNaParagonie": "Donau Papier A4",
+          "kwota": 15.99
+        },
+        {
+          "data": "2026-09-18",
+          "sklep": "E.Leclerc Hipermarket Ursynów",
           "nazwa": "Długopis żelowy",
+          "nazwaNaParagonie": "Długopis żelowy",
           "kwota": 5.26
         }
       ]
@@ -231,62 +322,74 @@
       "pozycje": [
         {
           "data": "2026-09-17",
-          "sklep": "Żabka",
+          "sklep": "Żabka ZA810",
           "nazwa": "Chrupki Palionki 70g",
-          "kwota": 4.99
+          "nazwaNaParagonie": "Chrupki Palionki 70g",
+          "kwota": 4.99,
+          "ilosc": 1,
+          "jednostka": "szt"
         },
         {
           "data": "2026-09-18",
-          "sklep": "E.Leclerc",
+          "sklep": "E.Leclerc Hipermarket Ursynów",
           "nazwa": "Ferrero Raffaello 230",
+          "nazwaNaParagonie": "Ferrero Raffaello 230",
           "kwota": 27.99
         },
         {
           "data": "2026-09-18",
-          "sklep": "E.Leclerc",
+          "sklep": "E.Leclerc Hipermarket Ursynów",
           "nazwa": "Delicje pomarańczowe 147g",
+          "nazwaNaParagonie": "Delicje pomarańczowe 147g",
           "kwota": 4.29
         },
         {
           "data": "2026-09-18",
-          "sklep": "E.Leclerc",
-          "nazwa": "Delicje pomarańczowe 147g",
-          "kwota": 4.29
-        },
-        {
-          "data": "2026-09-18",
-          "sklep": "E.Leclerc",
+          "sklep": "E.Leclerc Hipermarket Ursynów",
           "nazwa": "Haribo żelki Star 160",
+          "nazwaNaParagonie": "Haribo żelki Star 160",
           "kwota": 6.47
         },
         {
           "data": "2026-09-18",
-          "sklep": "E.Leclerc",
+          "sklep": "E.Leclerc Hipermarket Ursynów",
+          "nazwa": "Delicje pomarańczowe 147g",
+          "nazwaNaParagonie": "Delicje pomarańczowe 147g",
+          "kwota": 4.29
+        },
+        {
+          "data": "2026-09-18",
+          "sklep": "E.Leclerc Hipermarket Ursynów",
           "nazwa": "Haribo żelki Cham 160",
+          "nazwaNaParagonie": "Haribo żelki Cham 160",
           "kwota": 6.47
         },
         {
           "data": "2026-09-18",
-          "sklep": "E.Leclerc",
+          "sklep": "E.Leclerc Hipermarket Ursynów",
           "nazwa": "Haribo żelki 250",
+          "nazwaNaParagonie": "Haribo żelki 250",
           "kwota": 10.91
         },
         {
           "data": "2026-09-18",
-          "sklep": "E.Leclerc",
+          "sklep": "E.Leclerc Hipermarket Ursynów",
           "nazwa": "Chupa Chups lizak",
+          "nazwaNaParagonie": "Chupa Chups lizak",
           "kwota": 3.93
         },
         {
           "data": "2026-09-18",
-          "sklep": "E.Leclerc",
+          "sklep": "E.Leclerc Hipermarket Ursynów",
           "nazwa": "Chupa Chups lizak",
+          "nazwaNaParagonie": "Chupa Chups lizak",
           "kwota": 3.93
         },
         {
           "data": "2026-09-18",
-          "sklep": "E.Leclerc",
+          "sklep": "E.Leclerc Hipermarket Ursynów",
           "nazwa": "Obniżka Mondelez/Delicje",
+          "nazwaNaParagonie": "Obniżka Mondelez/Delicje",
           "kwota": -0.6
         }
       ]
@@ -297,27 +400,35 @@
       "pozycje": [
         {
           "data": "2026-09-17",
-          "sklep": "Wiesław Ryciuk — Warzywa i Owoce",
+          "sklep": "Wiesław Ryciuk",
           "nazwa": "Szczypior",
+          "nazwaNaParagonie": "Szczypior",
           "kwota": 4.0
         },
         {
           "data": "2026-09-17",
-          "sklep": "Wiesław Ryciuk — Warzywa i Owoce",
+          "sklep": "Wiesław Ryciuk",
           "nazwa": "Rzodkiewka",
+          "nazwaNaParagonie": "Rzodkiewka",
           "kwota": 4.0
         },
         {
           "data": "2026-09-19",
-          "sklep": "Gaerfild",
+          "sklep": "Robert Król F.H. Gaerfild",
           "nazwa": "Warzywa",
-          "kwota": 49.3
+          "nazwaNaParagonie": "Warzywa",
+          "kwota": 49.3,
+          "ilosc": 1,
+          "jednostka": "szt"
         },
         {
           "data": "2026-09-19",
-          "sklep": "Gaerfild",
+          "sklep": "Robert Król F.H. Gaerfild",
           "nazwa": "Warzywa",
-          "kwota": 3.0
+          "nazwaNaParagonie": "Warzywa",
+          "kwota": 3.0,
+          "ilosc": 1,
+          "jednostka": "szt"
         }
       ]
     },
@@ -327,25 +438,28 @@
       "pozycje": [
         {
           "data": "2026-09-17",
-          "sklep": "Wiesław Ryciuk — Warzywa i Owoce",
+          "sklep": "Wiesław Ryciuk",
           "nazwa": "Nabiał",
+          "nazwaNaParagonie": "Nabiał",
           "kwota": 12.2
         },
         {
           "data": "2026-09-18",
-          "sklep": "E.Leclerc",
+          "sklep": "E.Leclerc Hipermarket Ursynów",
           "nazwa": "Ser Roquefort",
+          "nazwaNaParagonie": "Ser Roquefort",
+          "kwota": 13.19,
           "ilosc": 0.136,
-          "jednostka": "kg",
-          "kwota": 13.19
+          "jednostka": "kg"
         },
         {
           "data": "2026-09-18",
-          "sklep": "E.Leclerc",
+          "sklep": "E.Leclerc Hipermarket Ursynów",
           "nazwa": "Ser Gouda holenderski",
+          "nazwaNaParagonie": "Ser Gouda holenderski",
+          "kwota": 20.0,
           "ilosc": 0.4,
-          "jednostka": "kg",
-          "kwota": 20.0
+          "jednostka": "kg"
         }
       ]
     },
@@ -355,20 +469,23 @@
       "pozycje": [
         {
           "data": "2026-09-18",
-          "sklep": "E.Leclerc",
+          "sklep": "E.Leclerc Hipermarket Ursynów",
           "nazwa": "Tania książka",
+          "nazwaNaParagonie": "Tania książka",
           "kwota": 12.99
         },
         {
           "data": "2026-09-18",
-          "sklep": "E.Leclerc",
+          "sklep": "E.Leclerc Hipermarket Ursynów",
           "nazwa": "Mix Historia",
+          "nazwaNaParagonie": "Mix Historia",
           "kwota": 16.99
         },
         {
           "data": "2026-09-18",
-          "sklep": "E.Leclerc",
+          "sklep": "E.Leclerc Hipermarket Ursynów",
           "nazwa": "Tania książka",
+          "nazwaNaParagonie": "Tania książka",
           "kwota": 9.99
         }
       ]
@@ -379,8 +496,9 @@
       "pozycje": [
         {
           "data": "2026-09-18",
-          "sklep": "E.Leclerc",
+          "sklep": "E.Leclerc Hipermarket Ursynów",
           "nazwa": "Gniotek Masło Jumbo",
+          "nazwaNaParagonie": "Gniotek Masło Jumbo",
           "kwota": 29.99
         }
       ]
@@ -392,43 +510,50 @@
         {
           "data": "2026-09-17",
           "sklep": "E.Leclerc",
-          "nazwa": "Pędy bambusa",
+          "nazwa": "Bamb 330 (pędy bambusa)",
+          "nazwaNaParagonie": "Bamb 330 (pędy bambusa)",
           "kwota": 4.99
         },
         {
           "data": "2026-09-17",
           "sklep": "E.Leclerc",
-          "nazwa": "Sos sojowy 150ml",
+          "nazwa": "Sos sojowy 150 ml",
+          "nazwaNaParagonie": "Sos sojowy 150 ml",
           "kwota": 4.69
         },
         {
           "data": "2026-09-18",
-          "sklep": "E.Leclerc",
+          "sklep": "E.Leclerc Hipermarket Ursynów",
           "nazwa": "Ming ekstrakt kokosowy 400",
+          "nazwaNaParagonie": "Ming ekstrakt kokosowy 400",
           "kwota": 4.49
         },
         {
           "data": "2026-09-18",
-          "sklep": "E.Leclerc",
+          "sklep": "E.Leclerc Hipermarket Ursynów",
           "nazwa": "Kamis zioła prowansalskie",
+          "nazwaNaParagonie": "Kamis zioła prowansalskie",
           "kwota": 2.49
         },
         {
           "data": "2026-09-18",
-          "sklep": "E.Leclerc",
+          "sklep": "E.Leclerc Hipermarket Ursynów",
           "nazwa": "Kamis pieprz",
+          "nazwaNaParagonie": "Kamis pieprz",
           "kwota": 2.49
         },
         {
           "data": "2026-09-18",
-          "sklep": "E.Leclerc",
+          "sklep": "E.Leclerc Hipermarket Ursynów",
           "nazwa": "Kamis oregano",
+          "nazwaNaParagonie": "Kamis oregano",
           "kwota": 2.49
         },
         {
           "data": "2026-09-18",
-          "sklep": "E.Leclerc",
+          "sklep": "E.Leclerc Hipermarket Ursynów",
           "nazwa": "Kamis bazylia",
+          "nazwaNaParagonie": "Kamis bazylia",
           "kwota": 2.49
         }
       ]
@@ -439,19 +564,21 @@
       "pozycje": [
         {
           "data": "2026-09-19",
-          "sklep": "Cichowscy",
+          "sklep": "Piekarnia K. i A. Cichowscy",
           "nazwa": "Bajgiel z sezamem i siemieniem",
+          "nazwaNaParagonie": "Bajgiel z sezamem i siemieniem",
+          "kwota": 8.2,
           "ilosc": 2,
-          "jednostka": "szt",
-          "kwota": 8.2
+          "jednostka": "szt"
         },
         {
           "data": "2026-09-19",
-          "sklep": "Cichowscy",
+          "sklep": "Piekarnia K. i A. Cichowscy",
           "nazwa": "Chleb Zaścianek",
+          "nazwaNaParagonie": "Chleb Zaścianek",
+          "kwota": 12.92,
           "ilosc": 0.564,
-          "jednostka": "kg",
-          "kwota": 12.92
+          "jednostka": "kg"
         }
       ]
     },
@@ -461,15 +588,17 @@
       "pozycje": [
         {
           "data": "2026-09-18",
-          "sklep": "E.Leclerc",
-          "nazwa": "Spray do czyszczenia 500",
-          "kwota": 17.99
+          "sklep": "E.Leclerc Hipermarket Ursynów",
+          "nazwa": "Torba LDPE",
+          "nazwaNaParagonie": "Torba LDPE",
+          "kwota": 1.25
         },
         {
           "data": "2026-09-18",
-          "sklep": "E.Leclerc",
-          "nazwa": "Torba LDPE",
-          "kwota": 1.25
+          "sklep": "E.Leclerc Hipermarket Ursynów",
+          "nazwa": "Spray do czyszczenia 500",
+          "nazwaNaParagonie": "Spray do czyszczenia 500",
+          "kwota": 17.99
         }
       ]
     },
@@ -479,111 +608,536 @@
       "pozycje": [
         {
           "data": "2026-09-17",
-          "sklep": "Wiesław Ryciuk — Warzywa i Owoce",
+          "sklep": "Wiesław Ryciuk",
           "nazwa": "Napoje",
+          "nazwaNaParagonie": "Napoje",
+          "kwota": 9.0,
           "ilosc": 3,
-          "jednostka": "szt",
-          "kwota": 9.0
+          "jednostka": "szt"
         }
       ]
     }
   ],
   "paragony": [
     {
+      "id": "2026-09-17-slodki",
       "sklep": "Słodki Grzech Sp. z o.o.",
       "adres": "Al. KEN 92, 02-777 Warszawa",
       "nip": "5272604424",
       "dataGodzina": "2026-09-17T11:32",
-      "suma": 15.8,
       "platnosc": "karta",
-      "dowod": "paragony-2026-09-17.jpg"
+      "dowod": "paragony-2026-09-17.jpg",
+      "sumaParagonu": 15.8,
+      "sumaPozycji": 15.8,
+      "walidacja": {
+        "sumaPozycji": 15.8,
+        "sumaParagonu": 15.8,
+        "zgadzaSie": true
+      },
+      "pozycje": [
+        {
+          "nazwa": "Drożdżówka ze śliwkami",
+          "kwota": 31.6,
+          "kategoria": "Wypieki słodkie",
+          "ilosc": 4.0,
+          "jednostka": "szt",
+          "cenaJednostkowa": 7.9
+        },
+        {
+          "nazwa": "Obniżka",
+          "kwota": -15.8,
+          "kategoria": "Wypieki słodkie"
+        }
+      ]
     },
     {
+      "id": "2026-09-17-zabka",
       "sklep": "Żabka ZA810 / PHU Paweł Jóźwiak",
       "adres": "Dereniowa 6, 02-776 Warszawa",
       "nip": "5681589521",
       "dataGodzina": "2026-09-17T12:10",
-      "suma": 4.99,
       "platnosc": "karta",
-      "dowod": "paragony-2026-09-17.jpg"
+      "dowod": "paragony-2026-09-17.jpg",
+      "sumaParagonu": 4.99,
+      "sumaPozycji": 4.99,
+      "walidacja": {
+        "sumaPozycji": 4.99,
+        "sumaParagonu": 4.99,
+        "zgadzaSie": true
+      },
+      "pozycje": [
+        {
+          "nazwa": "Chrupki Palionki 70g",
+          "kwota": 4.99,
+          "kategoria": "Słodycze i przekąski",
+          "ilosc": 1.0,
+          "jednostka": "szt"
+        }
+      ]
     },
     {
+      "id": "2026-09-17-warzywa",
       "sklep": "Wiesław Ryciuk — Warzywa i Owoce",
       "adres": "Dereniowa 7, 02-776 Warszawa",
       "nip": "9511030952",
       "dataGodzina": "2026-09-17T12:20",
-      "suma": 29.2,
       "platnosc": "gotówka",
-      "dowod": "paragony-2026-09-17.jpg"
+      "dowod": "paragony-2026-09-17.jpg",
+      "sumaParagonu": 29.2,
+      "sumaPozycji": 29.2,
+      "walidacja": {
+        "sumaPozycji": 29.2,
+        "sumaParagonu": 29.2,
+        "zgadzaSie": true
+      },
+      "pozycje": [
+        {
+          "nazwa": "Szczypior",
+          "kwota": 4.0,
+          "kategoria": "Warzywa"
+        },
+        {
+          "nazwa": "Rzodkiewka",
+          "kwota": 4.0,
+          "kategoria": "Warzywa"
+        },
+        {
+          "nazwa": "Nabiał",
+          "kwota": 12.2,
+          "kategoria": "Nabiał"
+        },
+        {
+          "nazwa": "Napoje",
+          "kwota": 9.0,
+          "kategoria": "Napoje",
+          "ilosc": 3.0,
+          "jednostka": "szt",
+          "cenaJednostkowa": 3.0
+        }
+      ]
     },
     {
+      "id": "2026-09-17-leclerc",
       "sklep": "E.Leclerc / IMMOMOK Sp. z o.o.",
-      "adres": "Jana Ciszewskiego 15, 02-777 Warszawa",
+      "adres": "Ciszewskiego 15, 02-777 Warszawa",
       "nip": "5271023642",
       "dataGodzina": "2026-09-17T17:25",
-      "suma": 57.38,
       "platnosc": "karta",
-      "dowod": "paragony-2026-09-17.jpg"
+      "dowod": "paragony-2026-09-17.jpg",
+      "sumaParagonu": 57.38,
+      "sumaPozycji": 57.38,
+      "walidacja": {
+        "sumaPozycji": 57.38,
+        "sumaParagonu": 57.38,
+        "zgadzaSie": true
+      },
+      "pozycje": [
+        {
+          "nazwa": "OXF Teczka",
+          "kwota": 19.17,
+          "kategoria": "Artykuły biurowe"
+        },
+        {
+          "nazwa": "Donau Papier A4",
+          "kwota": 15.99,
+          "kategoria": "Artykuły biurowe"
+        },
+        {
+          "nazwa": "Klej w sztyfcie",
+          "kwota": 2.69,
+          "kategoria": "Artykuły biurowe"
+        },
+        {
+          "nazwa": "Nożyczki 12,5 cm",
+          "kwota": 3.86,
+          "kategoria": "Artykuły biurowe"
+        },
+        {
+          "nazwa": "Zeszyt A4 32k",
+          "kwota": 5.99,
+          "kategoria": "Artykuły biurowe"
+        },
+        {
+          "nazwa": "Bamb 330 (pędy bambusa)",
+          "kwota": 4.99,
+          "kategoria": "Przetwory i przyprawy"
+        },
+        {
+          "nazwa": "Sos sojowy 150 ml",
+          "kwota": 4.69,
+          "kategoria": "Przetwory i przyprawy"
+        }
+      ]
     },
     {
-      "sklep": "E.Leclerc Hipermarket Ursynów / IMMOMOK Sp. z o.o.",
-      "adres": "Jana Ciszewskiego 15, 02-777 Warszawa",
+      "id": "2026-09-18-leclerc",
+      "sklep": "E.Leclerc Hipermarket Ursynów",
+      "adres": "Ciszewskiego 15, 02-777 Warszawa",
       "nip": "5271023642",
       "dataGodzina": "2026-09-18T18:01",
-      "suma": 314.9,
       "platnosc": "karta",
       "dowod": "paragon-leclerc-2026-09-18.jpg",
-      "nrParagonu": "1373253",
-      "weryfikacjaSumy": {
+      "sumaParagonu": 314.9,
+      "sumaPozycji": 314.9,
+      "walidacja": {
         "sumaPozycji": 314.9,
-        "sumaNaParagonie": 314.9,
+        "sumaParagonu": 314.9,
         "zgadzaSie": true
-      }
+      },
+      "pozycje": [
+        {
+          "nazwa": "Kiełbasa myśliwska",
+          "kwota": 10.22,
+          "kategoria": "Mięso, wędliny, ryby",
+          "ilosc": 0.148,
+          "jednostka": "kg"
+        },
+        {
+          "nazwa": "Ming ekstrakt kokosowy 400",
+          "kwota": 4.49,
+          "kategoria": "Przetwory i przyprawy"
+        },
+        {
+          "nazwa": "Ferrero Raffaello 230",
+          "kwota": 27.99,
+          "kategoria": "Słodycze i przekąski"
+        },
+        {
+          "nazwa": "Ser Roquefort",
+          "kwota": 13.19,
+          "kategoria": "Nabiał",
+          "ilosc": 0.136,
+          "jednostka": "kg"
+        },
+        {
+          "nazwa": "Torba LDPE",
+          "kwota": 1.25,
+          "kategoria": "Chemia / dom"
+        },
+        {
+          "nazwa": "Parówki Skol 140",
+          "kwota": 3.0,
+          "kategoria": "Mięso, wędliny, ryby"
+        },
+        {
+          "nazwa": "Gniotek Masło Jumbo",
+          "kwota": 29.99,
+          "kategoria": "Zabawki"
+        },
+        {
+          "nazwa": "Ser Gouda holenderski",
+          "kwota": 20.0,
+          "kategoria": "Nabiał",
+          "ilosc": 0.4,
+          "jednostka": "kg"
+        },
+        {
+          "nazwa": "Donut z nadz. czek.",
+          "kwota": 16.73,
+          "kategoria": "Wypieki słodkie",
+          "ilosc": 7.0,
+          "jednostka": "szt"
+        },
+        {
+          "nazwa": "Parówki kurczęce",
+          "kwota": 6.45,
+          "kategoria": "Mięso, wędliny, ryby"
+        },
+        {
+          "nazwa": "Spray do czyszczenia 500",
+          "kwota": 17.99,
+          "kategoria": "Chemia / dom"
+        },
+        {
+          "nazwa": "Długopis żelowy",
+          "kwota": 5.49,
+          "kategoria": "Artykuły biurowe"
+        },
+        {
+          "nazwa": "Donau Papier A4",
+          "kwota": 15.99,
+          "kategoria": "Artykuły biurowe"
+        },
+        {
+          "nazwa": "Makrela wędzona",
+          "kwota": 12.48,
+          "kategoria": "Mięso, wędliny, ryby",
+          "ilosc": 0.26,
+          "jednostka": "kg"
+        },
+        {
+          "nazwa": "Długopis żelowy",
+          "kwota": 5.26,
+          "kategoria": "Artykuły biurowe"
+        },
+        {
+          "nazwa": "Pasztet indyk+gęś",
+          "kwota": 11.17,
+          "kategoria": "Mięso, wędliny, ryby",
+          "ilosc": 0.302,
+          "jednostka": "kg"
+        },
+        {
+          "nazwa": "Delicje pomarańczowe 147g",
+          "kwota": 4.29,
+          "kategoria": "Słodycze i przekąski"
+        },
+        {
+          "nazwa": "Kiełbasa jałowcowa",
+          "kwota": 10.5,
+          "kategoria": "Mięso, wędliny, ryby",
+          "ilosc": 0.152,
+          "jednostka": "kg"
+        },
+        {
+          "nazwa": "Haribo żelki Star 160",
+          "kwota": 6.47,
+          "kategoria": "Słodycze i przekąski"
+        },
+        {
+          "nazwa": "Kamis zioła prowansalskie",
+          "kwota": 2.49,
+          "kategoria": "Przetwory i przyprawy"
+        },
+        {
+          "nazwa": "Kamis pieprz",
+          "kwota": 2.49,
+          "kategoria": "Przetwory i przyprawy"
+        },
+        {
+          "nazwa": "Delicje pomarańczowe 147g",
+          "kwota": 4.29,
+          "kategoria": "Słodycze i przekąski"
+        },
+        {
+          "nazwa": "Pasztet indyk+gęś",
+          "kwota": 13.09,
+          "kategoria": "Mięso, wędliny, ryby",
+          "ilosc": 0.354,
+          "jednostka": "kg"
+        },
+        {
+          "nazwa": "Haribo żelki Cham 160",
+          "kwota": 6.47,
+          "kategoria": "Słodycze i przekąski"
+        },
+        {
+          "nazwa": "Haribo żelki 250",
+          "kwota": 10.91,
+          "kategoria": "Słodycze i przekąski"
+        },
+        {
+          "nazwa": "Kamis oregano",
+          "kwota": 2.49,
+          "kategoria": "Przetwory i przyprawy"
+        },
+        {
+          "nazwa": "Kamis bazylia",
+          "kwota": 2.49,
+          "kategoria": "Przetwory i przyprawy"
+        },
+        {
+          "nazwa": "Chupa Chups lizak",
+          "kwota": 3.93,
+          "kategoria": "Słodycze i przekąski"
+        },
+        {
+          "nazwa": "Chupa Chups lizak",
+          "kwota": 3.93,
+          "kategoria": "Słodycze i przekąski"
+        },
+        {
+          "nazwa": "Tania książka",
+          "kwota": 12.99,
+          "kategoria": "Książki"
+        },
+        {
+          "nazwa": "Mix Historia",
+          "kwota": 16.99,
+          "kategoria": "Książki"
+        },
+        {
+          "nazwa": "Tania książka",
+          "kwota": 9.99,
+          "kategoria": "Książki"
+        },
+        {
+          "nazwa": "Obniżka Mondelez/Delicje",
+          "kwota": -0.6,
+          "kategoria": "Słodycze i przekąski"
+        }
+      ],
+      "nrParagonu": "1373253"
     },
     {
+      "id": "2026-09-19-grot",
       "sklep": "SEJ Sp. z o.o. — Delikatesy Mięsne GROT",
       "adres": "Dereniowa 10 lok. U8, 02-776 Warszawa",
       "nip": "5342655758",
       "dataGodzina": "2026-09-19T13:54",
-      "suma": 32.52,
       "platnosc": "karta",
-      "dowod": "paragony-oryginal.jpg"
+      "dowod": "paragony-oryginal.jpg",
+      "sumaParagonu": 32.52,
+      "sumaPozycji": 32.52,
+      "walidacja": {
+        "sumaPozycji": 32.52,
+        "sumaParagonu": 32.52,
+        "zgadzaSie": true
+      },
+      "pozycje": [
+        {
+          "nazwa": "Gulasz wołowy",
+          "kwota": 22.88,
+          "kategoria": "Mięso, wędliny, ryby",
+          "ilosc": 0.31,
+          "jednostka": "kg",
+          "alias": "Mięso mielone wieprzowo-wołowe (część wołowa / jak na paragonie)",
+          "cenaJednostkowa": 73.8
+        },
+        {
+          "nazwa": "Mięso wp. od szynki",
+          "kwota": 9.64,
+          "kategoria": "Mięso, wędliny, ryby",
+          "ilosc": 0.314,
+          "jednostka": "kg",
+          "alias": "Mięso mielone wieprzowo-wołowe (część wieprzowa / jak na paragonie)",
+          "cenaJednostkowa": 30.7
+        }
+      ],
+      "uwaga": "Wg kupującego: mięso mielone wieprzowo-wołowe. Na fiskalnym dwie pozycje poniżej."
     },
     {
-      "sklep": "Piekarnia K. i A. Cichowscy, E. Federowicz Sp. z o.o.",
+      "id": "2026-09-19-cichowscy",
+      "sklep": "Piekarnia K. i A. Cichowscy",
       "adres": "Cynamonowa 19 lok. U1, 02-777 Warszawa",
       "nip": "1130026398",
       "dataGodzina": "2026-09-19T14:04",
-      "suma": 89.11,
       "platnosc": "karta",
-      "dowod": "paragony-oryginal.jpg"
+      "dowod": "paragony-oryginal.jpg",
+      "sumaParagonu": 89.11,
+      "sumaPozycji": 89.11,
+      "walidacja": {
+        "sumaPozycji": 89.11,
+        "sumaParagonu": 89.11,
+        "zgadzaSie": true
+      },
+      "pozycje": [
+        {
+          "nazwa": "Bajgiel z sezamem i siemieniem",
+          "kwota": 8.2,
+          "kategoria": "Pieczywo",
+          "ilosc": 2.0,
+          "jednostka": "szt",
+          "cenaJednostkowa": 4.1
+        },
+        {
+          "nazwa": "Chleb Zaścianek",
+          "kwota": 12.92,
+          "kategoria": "Pieczywo",
+          "ilosc": 0.564,
+          "jednostka": "kg",
+          "cenaJednostkowa": 22.9
+        },
+        {
+          "nazwa": "Sernik Stracciatella",
+          "kwota": 14.71,
+          "kategoria": "Wypieki słodkie",
+          "ilosc": 0.278,
+          "jednostka": "kg",
+          "cenaJednostkowa": 52.9
+        },
+        {
+          "nazwa": "Pączki nadziane z porzeczką",
+          "kwota": 27.6,
+          "kategoria": "Wypieki słodkie",
+          "ilosc": 4.0,
+          "jednostka": "szt",
+          "cenaJednostkowa": 6.9
+        },
+        {
+          "nazwa": "Pączki nadziane z różą",
+          "kwota": 25.68,
+          "kategoria": "Wypieki słodkie",
+          "ilosc": 3.0,
+          "jednostka": "szt",
+          "cenaJednostkowa": 8.56
+        }
+      ]
     },
     {
+      "id": "2026-09-19-gaerfild-1",
       "sklep": "Robert Król F.H. Gaerfild",
       "adres": "Dereniowa 6, 02-776 Warszawa",
       "nip": "7342609937",
       "dataGodzina": "2026-09-19T14:16",
-      "suma": 49.3,
       "platnosc": "karta",
-      "dowod": "paragony-oryginal.jpg"
+      "dowod": "paragony-oryginal.jpg",
+      "sumaParagonu": 49.3,
+      "sumaPozycji": 49.3,
+      "walidacja": {
+        "sumaPozycji": 49.3,
+        "sumaParagonu": 49.3,
+        "zgadzaSie": true
+      },
+      "pozycje": [
+        {
+          "nazwa": "Warzywa",
+          "kwota": 49.3,
+          "kategoria": "Warzywa",
+          "ilosc": 1.0,
+          "jednostka": "szt"
+        }
+      ]
     },
     {
+      "id": "2026-09-19-gaerfild-2",
       "sklep": "Robert Król F.H. Gaerfild",
       "adres": "Dereniowa 6, 02-776 Warszawa",
       "nip": "7342609937",
       "dataGodzina": "2026-09-19T14:18",
-      "suma": 3.0,
       "platnosc": "karta",
-      "dowod": "paragony-oryginal.jpg"
+      "dowod": "paragony-oryginal.jpg",
+      "sumaParagonu": 3.0,
+      "sumaPozycji": 3.0,
+      "walidacja": {
+        "sumaPozycji": 3.0,
+        "sumaParagonu": 3.0,
+        "zgadzaSie": true
+      },
+      "pozycje": [
+        {
+          "nazwa": "Warzywa",
+          "kwota": 3.0,
+          "kategoria": "Warzywa",
+          "ilosc": 1.0,
+          "jednostka": "szt"
+        }
+      ]
     },
     {
+      "id": "2026-09-19-putka",
       "sklep": "Putka Sp. z o.o.",
       "adres": "Dereniowa 10, 02-676 Warszawa",
       "nip": "1130005947",
       "dataGodzina": "2026-09-19T14:32",
-      "suma": 62.0,
       "platnosc": "karta",
       "dowod": "paragon-putka.jpg",
+      "sumaParagonu": 62.0,
+      "sumaPozycji": 62.0,
+      "walidacja": {
+        "sumaPozycji": 62.0,
+        "sumaParagonu": 62.0,
+        "zgadzaSie": true
+      },
+      "pozycje": [
+        {
+          "nazwa": "Torcik czekoladowy 700g",
+          "kwota": 62.0,
+          "kategoria": "Wypieki słodkie",
+          "ilosc": 1.0,
+          "jednostka": "szt"
+        }
+      ],
       "nrParagonu": "32626"
     }
   ]
