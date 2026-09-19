@@ -5,92 +5,146 @@
   },
   "miasto": "Warszawa",
   "waluta": "PLN",
-  "sumaCalkowita": 343.3,
+  "sumaCalkowita": 658.2,
+  "liczbaParagonow": 10,
   "dowodyFotograficzne": [
     "paragony-2026-09-17.jpg",
+    "paragon-leclerc-2026-09-18.jpg",
     "paragony-oryginal.jpg",
     "paragon-putka.jpg"
   ],
   "sumaWgDnia": [
     { "data": "2026-09-17", "suma": 107.37, "liczbaParagonow": 4 },
+    { "data": "2026-09-18", "suma": 314.9, "liczbaParagonow": 1 },
     { "data": "2026-09-19", "suma": 235.93, "liczbaParagonow": 5 }
   ],
   "kategorie": [
     {
       "nazwa": "Wypieki słodkie",
-      "suma": 145.79,
+      "suma": 162.52,
       "pozycje": [
-        { "data": "2026-09-17", "sklep": "Słodki Grzech", "nazwa": "Drożdżówka ze śliwkami", "ilosc": 4, "jednostka": "szt", "cenaJednostkowa": 7.9, "obnizka": -15.8, "kwota": 15.8 },
-        { "data": "2026-09-19", "sklep": "Cichowscy", "nazwa": "Sernik Stracciatella", "ilosc": 0.278, "jednostka": "kg", "cenaJednostkowa": 52.9, "kwota": 14.71 },
-        { "data": "2026-09-19", "sklep": "Cichowscy", "nazwa": "Pączki nadziane z porzeczką", "ilosc": 4, "jednostka": "szt", "cenaJednostkowa": 6.9, "kwota": 27.6 },
-        { "data": "2026-09-19", "sklep": "Cichowscy", "nazwa": "Pączki nadziane z różą", "ilosc": 3, "jednostka": "szt", "cenaJednostkowa": 8.56, "kwota": 25.68 },
-        { "data": "2026-09-19", "sklep": "Putka", "nazwa": "Torcik czekoladowy 700g", "ilosc": 1, "jednostka": "szt", "cenaJednostkowa": 62.0, "kwota": 62.0 }
+        { "data": "2026-09-17", "sklep": "Słodki Grzech", "nazwa": "Drożdżówka ze śliwkami", "ilosc": 4, "jednostka": "szt", "obnizka": -15.8, "kwota": 15.8 },
+        { "data": "2026-09-18", "sklep": "E.Leclerc", "nazwa": "Donut z nadz. czek.", "ilosc": 7, "jednostka": "szt", "cenaJednostkowa": 2.39, "kwota": 16.73 },
+        { "data": "2026-09-19", "sklep": "Cichowscy", "nazwa": "Sernik Stracciatella", "ilosc": 0.278, "jednostka": "kg", "kwota": 14.71 },
+        { "data": "2026-09-19", "sklep": "Cichowscy", "nazwa": "Pączki nadziane z porzeczką", "ilosc": 4, "jednostka": "szt", "kwota": 27.6 },
+        { "data": "2026-09-19", "sklep": "Cichowscy", "nazwa": "Pączki nadziane z różą", "ilosc": 3, "jednostka": "szt", "kwota": 25.68 },
+        { "data": "2026-09-19", "sklep": "Putka", "nazwa": "Torcik czekoladowy 700g", "ilosc": 1, "jednostka": "szt", "kwota": 62.0 }
+      ]
+    },
+    {
+      "nazwa": "Mięso, wędliny, ryby",
+      "suma": 99.43,
+      "pozycje": [
+        { "data": "2026-09-19", "sklep": "GROT", "nazwa": "Gulasz wołowy", "ilosc": 0.31, "jednostka": "kg", "kwota": 22.88 },
+        { "data": "2026-09-19", "sklep": "GROT", "nazwa": "Mięso wp. od szynki", "ilosc": 0.314, "jednostka": "kg", "kwota": 9.64 },
+        { "data": "2026-09-18", "sklep": "E.Leclerc", "nazwa": "Kiełbasa myśliwska", "ilosc": 0.148, "jednostka": "kg", "kwota": 10.22 },
+        { "data": "2026-09-18", "sklep": "E.Leclerc", "nazwa": "Parówki Skol 140", "ilosc": 1, "jednostka": "szt", "kwota": 3.0 },
+        { "data": "2026-09-18", "sklep": "E.Leclerc", "nazwa": "Parówki kurczęce", "ilosc": 1, "jednostka": "szt", "kwota": 6.45 },
+        { "data": "2026-09-18", "sklep": "E.Leclerc", "nazwa": "Makrela wędzona", "ilosc": 0.26, "jednostka": "kg", "kwota": 12.48 },
+        { "data": "2026-09-18", "sklep": "E.Leclerc", "nazwa": "Pasztet indyk+gęś", "ilosc": 0.302, "jednostka": "kg", "kwota": 11.17 },
+        { "data": "2026-09-18", "sklep": "E.Leclerc", "nazwa": "Kiełbasa jałowcowa", "ilosc": 0.152, "jednostka": "kg", "kwota": 10.5 },
+        { "data": "2026-09-18", "sklep": "E.Leclerc", "nazwa": "Pasztet indyk+gęś", "ilosc": 0.354, "jednostka": "kg", "kwota": 13.09 }
+      ]
+    },
+    {
+      "nazwa": "Artykuły biurowe",
+      "suma": 74.44,
+      "pozycje": [
+        { "data": "2026-09-17", "sklep": "E.Leclerc", "nazwa": "Teczka OXF", "kwota": 19.17 },
+        { "data": "2026-09-17", "sklep": "E.Leclerc", "nazwa": "Papier A4 Donau", "kwota": 15.99 },
+        { "data": "2026-09-17", "sklep": "E.Leclerc", "nazwa": "Klej w sztyfcie", "kwota": 2.69 },
+        { "data": "2026-09-17", "sklep": "E.Leclerc", "nazwa": "Nożyczki 12.5cm", "kwota": 3.86 },
+        { "data": "2026-09-17", "sklep": "E.Leclerc", "nazwa": "Zeszyt A4 32k", "kwota": 5.99 },
+        { "data": "2026-09-18", "sklep": "E.Leclerc", "nazwa": "Papier A4 Donau", "kwota": 15.99 },
+        { "data": "2026-09-18", "sklep": "E.Leclerc", "nazwa": "Długopis żelowy", "kwota": 5.49 },
+        { "data": "2026-09-18", "sklep": "E.Leclerc", "nazwa": "Długopis żelowy", "kwota": 5.26 }
+      ]
+    },
+    {
+      "nazwa": "Słodycze i przekąski",
+      "suma": 72.67,
+      "pozycje": [
+        { "data": "2026-09-17", "sklep": "Żabka", "nazwa": "Chrupki Palionki 70g", "kwota": 4.99 },
+        { "data": "2026-09-18", "sklep": "E.Leclerc", "nazwa": "Ferrero Raffaello 230", "kwota": 27.99 },
+        { "data": "2026-09-18", "sklep": "E.Leclerc", "nazwa": "Delicje pomarańczowe 147g", "kwota": 4.29 },
+        { "data": "2026-09-18", "sklep": "E.Leclerc", "nazwa": "Delicje pomarańczowe 147g", "kwota": 4.29 },
+        { "data": "2026-09-18", "sklep": "E.Leclerc", "nazwa": "Haribo żelki Star 160", "kwota": 6.47 },
+        { "data": "2026-09-18", "sklep": "E.Leclerc", "nazwa": "Haribo żelki Cham 160", "kwota": 6.47 },
+        { "data": "2026-09-18", "sklep": "E.Leclerc", "nazwa": "Haribo żelki 250", "kwota": 10.91 },
+        { "data": "2026-09-18", "sklep": "E.Leclerc", "nazwa": "Chupa Chups lizak", "kwota": 3.93 },
+        { "data": "2026-09-18", "sklep": "E.Leclerc", "nazwa": "Chupa Chups lizak", "kwota": 3.93 },
+        { "data": "2026-09-18", "sklep": "E.Leclerc", "nazwa": "Obniżka Mondelez/Delicje", "kwota": -0.6 }
       ]
     },
     {
       "nazwa": "Warzywa",
       "suma": 60.3,
       "pozycje": [
-        { "data": "2026-09-17", "sklep": "Wiesław Ryciuk — Warzywa i Owoce", "nazwa": "Szczypior", "ilosc": 1, "jednostka": "szt", "kwota": 4.0 },
-        { "data": "2026-09-17", "sklep": "Wiesław Ryciuk — Warzywa i Owoce", "nazwa": "Rzodkiewka", "ilosc": 1, "jednostka": "szt", "kwota": 4.0 },
-        { "data": "2026-09-19", "sklep": "Gaerfild", "nazwa": "Warzywa", "ilosc": 1, "jednostka": "szt", "kwota": 49.3 },
-        { "data": "2026-09-19", "sklep": "Gaerfild", "nazwa": "Warzywa", "ilosc": 1, "jednostka": "szt", "kwota": 3.0 }
+        { "data": "2026-09-17", "sklep": "Wiesław Ryciuk — Warzywa i Owoce", "nazwa": "Szczypior", "kwota": 4.0 },
+        { "data": "2026-09-17", "sklep": "Wiesław Ryciuk — Warzywa i Owoce", "nazwa": "Rzodkiewka", "kwota": 4.0 },
+        { "data": "2026-09-19", "sklep": "Gaerfild", "nazwa": "Warzywa", "kwota": 49.3 },
+        { "data": "2026-09-19", "sklep": "Gaerfild", "nazwa": "Warzywa", "kwota": 3.0 }
       ]
     },
     {
-      "nazwa": "Artykuły biurowe",
-      "suma": 47.7,
+      "nazwa": "Nabiał",
+      "suma": 45.39,
       "pozycje": [
-        { "data": "2026-09-17", "sklep": "E.Leclerc", "nazwa": "Teczka OXF", "ilosc": 1, "jednostka": "szt", "kwota": 19.17 },
-        { "data": "2026-09-17", "sklep": "E.Leclerc", "nazwa": "Papier A4 Donau", "ilosc": 1, "jednostka": "szt", "kwota": 15.99 },
-        { "data": "2026-09-17", "sklep": "E.Leclerc", "nazwa": "Klej w sztyfcie", "ilosc": 1, "jednostka": "szt", "kwota": 2.69 },
-        { "data": "2026-09-17", "sklep": "E.Leclerc", "nazwa": "Nożyczki 12.5cm", "ilosc": 1, "jednostka": "szt", "kwota": 3.86 },
-        { "data": "2026-09-17", "sklep": "E.Leclerc", "nazwa": "Zeszyt A4 32k", "ilosc": 1, "jednostka": "szt", "kwota": 5.99 }
+        { "data": "2026-09-17", "sklep": "Wiesław Ryciuk — Warzywa i Owoce", "nazwa": "Nabiał", "kwota": 12.2 },
+        { "data": "2026-09-18", "sklep": "E.Leclerc", "nazwa": "Ser Roquefort", "ilosc": 0.136, "jednostka": "kg", "kwota": 13.19 },
+        { "data": "2026-09-18", "sklep": "E.Leclerc", "nazwa": "Ser Gouda holenderski", "ilosc": 0.4, "jednostka": "kg", "kwota": 20.0 }
       ]
     },
     {
-      "nazwa": "Mięso",
-      "suma": 32.52,
+      "nazwa": "Książki",
+      "suma": 39.97,
       "pozycje": [
-        { "data": "2026-09-19", "sklep": "GROT", "nazwa": "Gulasz wołowy", "ilosc": 0.31, "jednostka": "kg", "cenaJednostkowa": 73.8, "kwota": 22.88 },
-        { "data": "2026-09-19", "sklep": "GROT", "nazwa": "Mięso wp. od szynki", "ilosc": 0.314, "jednostka": "kg", "cenaJednostkowa": 30.7, "kwota": 9.64 }
+        { "data": "2026-09-18", "sklep": "E.Leclerc", "nazwa": "Tania książka", "kwota": 12.99 },
+        { "data": "2026-09-18", "sklep": "E.Leclerc", "nazwa": "Mix Historia", "kwota": 16.99 },
+        { "data": "2026-09-18", "sklep": "E.Leclerc", "nazwa": "Tania książka", "kwota": 9.99 }
+      ]
+    },
+    {
+      "nazwa": "Zabawki",
+      "suma": 29.99,
+      "pozycje": [
+        { "data": "2026-09-18", "sklep": "E.Leclerc", "nazwa": "Gniotek Masło Jumbo", "kwota": 29.99 }
+      ]
+    },
+    {
+      "nazwa": "Przetwory i przyprawy",
+      "suma": 24.13,
+      "pozycje": [
+        { "data": "2026-09-17", "sklep": "E.Leclerc", "nazwa": "Pędy bambusa", "kwota": 4.99 },
+        { "data": "2026-09-17", "sklep": "E.Leclerc", "nazwa": "Sos sojowy 150ml", "kwota": 4.69 },
+        { "data": "2026-09-18", "sklep": "E.Leclerc", "nazwa": "Ming ekstrakt kokosowy 400", "kwota": 4.49 },
+        { "data": "2026-09-18", "sklep": "E.Leclerc", "nazwa": "Kamis zioła prowansalskie", "kwota": 2.49 },
+        { "data": "2026-09-18", "sklep": "E.Leclerc", "nazwa": "Kamis pieprz", "kwota": 2.49 },
+        { "data": "2026-09-18", "sklep": "E.Leclerc", "nazwa": "Kamis oregano", "kwota": 2.49 },
+        { "data": "2026-09-18", "sklep": "E.Leclerc", "nazwa": "Kamis bazylia", "kwota": 2.49 }
       ]
     },
     {
       "nazwa": "Pieczywo",
       "suma": 21.12,
       "pozycje": [
-        { "data": "2026-09-19", "sklep": "Cichowscy", "nazwa": "Bajgiel z sezamem i siemieniem", "ilosc": 2, "jednostka": "szt", "cenaJednostkowa": 4.1, "kwota": 8.2 },
-        { "data": "2026-09-19", "sklep": "Cichowscy", "nazwa": "Chleb Zaścianek", "ilosc": 0.564, "jednostka": "kg", "cenaJednostkowa": 22.9, "kwota": 12.92 }
+        { "data": "2026-09-19", "sklep": "Cichowscy", "nazwa": "Bajgiel z sezamem i siemieniem", "ilosc": 2, "jednostka": "szt", "kwota": 8.2 },
+        { "data": "2026-09-19", "sklep": "Cichowscy", "nazwa": "Chleb Zaścianek", "ilosc": 0.564, "jednostka": "kg", "kwota": 12.92 }
       ]
     },
     {
-      "nazwa": "Nabiał",
-      "suma": 12.2,
+      "nazwa": "Chemia / dom",
+      "suma": 19.24,
       "pozycje": [
-        { "data": "2026-09-17", "sklep": "Wiesław Ryciuk — Warzywa i Owoce", "nazwa": "Nabiał", "ilosc": 1, "jednostka": "szt", "kwota": 12.2 }
-      ]
-    },
-    {
-      "nazwa": "Przetwory spożywcze",
-      "suma": 9.68,
-      "pozycje": [
-        { "data": "2026-09-17", "sklep": "E.Leclerc", "nazwa": "Pędy bambusa", "ilosc": 1, "jednostka": "szt", "kwota": 4.99 },
-        { "data": "2026-09-17", "sklep": "E.Leclerc", "nazwa": "Sos sojowy 150ml", "ilosc": 1, "jednostka": "szt", "kwota": 4.69 }
+        { "data": "2026-09-18", "sklep": "E.Leclerc", "nazwa": "Spray do czyszczenia 500", "kwota": 17.99 },
+        { "data": "2026-09-18", "sklep": "E.Leclerc", "nazwa": "Torba LDPE", "kwota": 1.25 }
       ]
     },
     {
       "nazwa": "Napoje",
       "suma": 9.0,
       "pozycje": [
-        { "data": "2026-09-17", "sklep": "Wiesław Ryciuk — Warzywa i Owoce", "nazwa": "Napoje", "ilosc": 3, "jednostka": "szt", "cenaJednostkowa": 3.0, "kwota": 9.0 }
-      ]
-    },
-    {
-      "nazwa": "Przekąski",
-      "suma": 4.99,
-      "pozycje": [
-        { "data": "2026-09-17", "sklep": "Żabka", "nazwa": "Chrupki Palionki 70g", "ilosc": 1, "jednostka": "szt", "kwota": 4.99 }
+        { "data": "2026-09-17", "sklep": "Wiesław Ryciuk — Warzywa i Owoce", "nazwa": "Napoje", "ilosc": 3, "jednostka": "szt", "kwota": 9.0 }
       ]
     }
   ],
@@ -130,6 +184,21 @@
       "suma": 57.38,
       "platnosc": "karta",
       "dowod": "paragony-2026-09-17.jpg"
+    },
+    {
+      "sklep": "E.Leclerc Hipermarket Ursynów / IMMOMOK Sp. z o.o.",
+      "adres": "Jana Ciszewskiego 15, 02-777 Warszawa",
+      "nip": "5271023642",
+      "dataGodzina": "2026-09-18T18:01",
+      "suma": 314.9,
+      "platnosc": "karta",
+      "dowod": "paragon-leclerc-2026-09-18.jpg",
+      "nrParagonu": "1373253",
+      "weryfikacjaSumy": {
+        "sumaPozycji": 314.9,
+        "sumaNaParagonie": 314.9,
+        "zgadzaSie": true
+      }
     },
     {
       "sklep": "SEJ Sp. z o.o. — Delikatesy Mięsne GROT",
