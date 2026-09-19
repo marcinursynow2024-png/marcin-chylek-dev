@@ -1,37 +1,71 @@
 {
   "okres": {
-    "od": "2026-09-17",
+    "od": "2026-09-13",
     "do": "2026-09-19"
   },
   "miasto": "Warszawa",
   "waluta": "PLN",
-  "sumaCalkowita": 658.2,
-  "liczbaParagonow": 10,
-  "zasadaWalidacji": "Dla każdego paragonu: suma(pozycje) == SUMA na paragonie. Inaczej błąd.",
+  "sumaCalkowita": 1335.77,
+  "liczbaDokumentow": 13,
+  "zasadaWalidacji": "Dla każdego dokumentu: suma(pozycje) == kwota do zapłaty.",
   "dowodyFotograficzne": [
-    "paragony-2026-09-17.jpg",
+    "faktura-leclerc-pendrive-2026-09-16.jpg",
+    "faktura-petrodis-paliwo-2026-09-13.jpg",
+    "paragon-biedronka-2026-09-16.jpg",
     "paragon-leclerc-2026-09-18.jpg",
-    "paragony-oryginal.jpg",
-    "paragon-putka.jpg"
+    "paragon-putka.jpg",
+    "paragony-2026-09-17.jpg",
+    "paragony-oryginal.jpg"
   ],
   "sumaWgDnia": [
     {
+      "data": "2026-09-13",
+      "suma": 499.38,
+      "liczbaDokumentow": 1
+    },
+    {
+      "data": "2026-09-16",
+      "suma": 178.19,
+      "liczbaDokumentow": 2
+    },
+    {
       "data": "2026-09-17",
       "suma": 107.37,
-      "liczbaParagonow": 4
+      "liczbaDokumentow": 4
     },
     {
       "data": "2026-09-18",
       "suma": 314.9,
-      "liczbaParagonow": 1
+      "liczbaDokumentow": 1
     },
     {
       "data": "2026-09-19",
       "suma": 235.93,
-      "liczbaParagonow": 5
+      "liczbaDokumentow": 5
     }
   ],
-  "walidacjaParagonow": [
+  "walidacjaDokumentow": [
+    {
+      "id": "2026-09-13-petrodis",
+      "sklep": "Petrodis Sp. z o.o.",
+      "sumaPozycji": 499.38,
+      "sumaParagonu": 499.38,
+      "zgadzaSie": true
+    },
+    {
+      "id": "2026-09-16-biedronka",
+      "sklep": "Biedronka #5766 / Jeronimo Martins",
+      "sumaPozycji": 58.2,
+      "sumaParagonu": 58.2,
+      "zgadzaSie": true
+    },
+    {
+      "id": "2026-09-16-leclerc-pendrive",
+      "sklep": "E.Leclerc / IMMOMOK Sp. z o.o.",
+      "sumaPozycji": 119.99,
+      "sumaParagonu": 119.99,
+      "zgadzaSie": true
+    },
     {
       "id": "2026-09-17-slodki",
       "sklep": "Słodki Grzech Sp. z o.o.",
@@ -105,9 +139,40 @@
   ],
   "kategorie": [
     {
-      "nazwa": "Wypieki słodkie",
-      "suma": 162.52,
+      "nazwa": "Paliwo",
+      "suma": 499.38,
       "pozycje": [
+        {
+          "data": "2026-09-13",
+          "sklep": "Petrodis Sp. z o.o.",
+          "nazwa": "PB98 E5A (benzyna)",
+          "nazwaNaParagonie": "PB98 E5A (benzyna)",
+          "kwota": 499.38,
+          "ilosc": 58,
+          "jednostka": "l"
+        }
+      ]
+    },
+    {
+      "nazwa": "Wypieki słodkie",
+      "suma": 170.27,
+      "pozycje": [
+        {
+          "data": "2026-09-16",
+          "sklep": "Biedronka #5766",
+          "nazwa": "Rogal / croissant 60g",
+          "nazwaNaParagonie": "Rogal / croissant 60g",
+          "kwota": 8.95,
+          "ilosc": 5,
+          "jednostka": "szt"
+        },
+        {
+          "data": "2026-09-16",
+          "sklep": "Biedronka #5766",
+          "nazwa": "Opust rogale",
+          "nazwaNaParagonie": "Opust rogale",
+          "kwota": -1.2
+        },
         {
           "data": "2026-09-17",
           "sklep": "Słodki Grzech Sp. z o.o.",
@@ -166,6 +231,21 @@
           "nazwa": "Torcik czekoladowy 700g",
           "nazwaNaParagonie": "Torcik czekoladowy 700g",
           "kwota": 62.0,
+          "ilosc": 1,
+          "jednostka": "szt"
+        }
+      ]
+    },
+    {
+      "nazwa": "Elektronika / IT",
+      "suma": 119.99,
+      "pozycje": [
+        {
+          "data": "2026-09-16",
+          "sklep": "E.Leclerc",
+          "nazwa": "SanDisk Pendrive 128GB",
+          "nazwaNaParagonie": "SanDisk Pendrive 128GB",
+          "kwota": 119.99,
           "ilosc": 1,
           "jednostka": "szt"
         }
@@ -237,7 +317,7 @@
         {
           "data": "2026-09-19",
           "sklep": "SEJ Sp. z o.o.",
-          "nazwa": "Mięso mielone wieprzowo-wołowe (część wołowa / jak na paragonie)",
+          "nazwa": "Mięso mielone wieprzowo-wołowe (na paragonie: Gulasz wołowy)",
           "nazwaNaParagonie": "Gulasz wołowy",
           "kwota": 22.88,
           "ilosc": 0.31,
@@ -246,7 +326,7 @@
         {
           "data": "2026-09-19",
           "sklep": "SEJ Sp. z o.o.",
-          "nazwa": "Mięso mielone wieprzowo-wołowe (część wieprzowa / jak na paragonie)",
+          "nazwa": "Mięso mielone wieprzowo-wołowe (na paragonie: Mięso wp. od szynki)",
           "nazwaNaParagonie": "Mięso wp. od szynki",
           "kwota": 9.64,
           "ilosc": 0.314,
@@ -255,71 +335,18 @@
       ]
     },
     {
-      "nazwa": "Artykuły biurowe",
-      "suma": 74.44,
-      "pozycje": [
-        {
-          "data": "2026-09-17",
-          "sklep": "E.Leclerc",
-          "nazwa": "OXF Teczka",
-          "nazwaNaParagonie": "OXF Teczka",
-          "kwota": 19.17
-        },
-        {
-          "data": "2026-09-17",
-          "sklep": "E.Leclerc",
-          "nazwa": "Donau Papier A4",
-          "nazwaNaParagonie": "Donau Papier A4",
-          "kwota": 15.99
-        },
-        {
-          "data": "2026-09-17",
-          "sklep": "E.Leclerc",
-          "nazwa": "Klej w sztyfcie",
-          "nazwaNaParagonie": "Klej w sztyfcie",
-          "kwota": 2.69
-        },
-        {
-          "data": "2026-09-17",
-          "sklep": "E.Leclerc",
-          "nazwa": "Nożyczki 12,5 cm",
-          "nazwaNaParagonie": "Nożyczki 12,5 cm",
-          "kwota": 3.86
-        },
-        {
-          "data": "2026-09-17",
-          "sklep": "E.Leclerc",
-          "nazwa": "Zeszyt A4 32k",
-          "nazwaNaParagonie": "Zeszyt A4 32k",
-          "kwota": 5.99
-        },
-        {
-          "data": "2026-09-18",
-          "sklep": "E.Leclerc Hipermarket Ursynów",
-          "nazwa": "Długopis żelowy",
-          "nazwaNaParagonie": "Długopis żelowy",
-          "kwota": 5.49
-        },
-        {
-          "data": "2026-09-18",
-          "sklep": "E.Leclerc Hipermarket Ursynów",
-          "nazwa": "Donau Papier A4",
-          "nazwaNaParagonie": "Donau Papier A4",
-          "kwota": 15.99
-        },
-        {
-          "data": "2026-09-18",
-          "sklep": "E.Leclerc Hipermarket Ursynów",
-          "nazwa": "Długopis żelowy",
-          "nazwaNaParagonie": "Długopis żelowy",
-          "kwota": 5.26
-        }
-      ]
-    },
-    {
       "nazwa": "Słodycze i przekąski",
-      "suma": 72.67,
+      "suma": 80.16,
       "pozycje": [
+        {
+          "data": "2026-09-16",
+          "sklep": "Biedronka #5766",
+          "nazwa": "Guma Orbit Spearmint 50g",
+          "nazwaNaParagonie": "Guma Orbit Spearmint 50g",
+          "kwota": 7.49,
+          "ilosc": 1,
+          "jednostka": "szt"
+        },
         {
           "data": "2026-09-17",
           "sklep": "Żabka ZA810",
@@ -395,9 +422,154 @@
       ]
     },
     {
-      "nazwa": "Warzywa",
-      "suma": 60.3,
+      "nazwa": "Artykuły biurowe",
+      "suma": 74.44,
       "pozycje": [
+        {
+          "data": "2026-09-17",
+          "sklep": "E.Leclerc",
+          "nazwa": "OXF Teczka",
+          "nazwaNaParagonie": "OXF Teczka",
+          "kwota": 19.17
+        },
+        {
+          "data": "2026-09-17",
+          "sklep": "E.Leclerc",
+          "nazwa": "Donau Papier A4",
+          "nazwaNaParagonie": "Donau Papier A4",
+          "kwota": 15.99
+        },
+        {
+          "data": "2026-09-17",
+          "sklep": "E.Leclerc",
+          "nazwa": "Klej w sztyfcie",
+          "nazwaNaParagonie": "Klej w sztyfcie",
+          "kwota": 2.69
+        },
+        {
+          "data": "2026-09-17",
+          "sklep": "E.Leclerc",
+          "nazwa": "Nożyczki 12,5 cm",
+          "nazwaNaParagonie": "Nożyczki 12,5 cm",
+          "kwota": 3.86
+        },
+        {
+          "data": "2026-09-17",
+          "sklep": "E.Leclerc",
+          "nazwa": "Zeszyt A4 32k",
+          "nazwaNaParagonie": "Zeszyt A4 32k",
+          "kwota": 5.99
+        },
+        {
+          "data": "2026-09-18",
+          "sklep": "E.Leclerc Hipermarket Ursynów",
+          "nazwa": "Długopis żelowy",
+          "nazwaNaParagonie": "Długopis żelowy",
+          "kwota": 5.49
+        },
+        {
+          "data": "2026-09-18",
+          "sklep": "E.Leclerc Hipermarket Ursynów",
+          "nazwa": "Donau Papier A4",
+          "nazwaNaParagonie": "Donau Papier A4",
+          "kwota": 15.99
+        },
+        {
+          "data": "2026-09-18",
+          "sklep": "E.Leclerc Hipermarket Ursynów",
+          "nazwa": "Długopis żelowy",
+          "nazwaNaParagonie": "Długopis żelowy",
+          "kwota": 5.26
+        }
+      ]
+    },
+    {
+      "nazwa": "Nabiał",
+      "suma": 68.14,
+      "pozycje": [
+        {
+          "data": "2026-09-16",
+          "sklep": "Biedronka #5766",
+          "nazwa": "Jogurt Skyr Owocowy Ogród 1kg",
+          "nazwaNaParagonie": "Jogurt Skyr Owocowy Ogród 1kg",
+          "kwota": 8.99,
+          "ilosc": 1,
+          "jednostka": "szt"
+        },
+        {
+          "data": "2026-09-16",
+          "sklep": "Biedronka #5766",
+          "nazwa": "Jogurt naturalny Bako 300g+50g",
+          "nazwaNaParagonie": "Jogurt naturalny Bako 300g+50g",
+          "kwota": 7.98,
+          "ilosc": 2,
+          "jednostka": "szt"
+        },
+        {
+          "data": "2026-09-16",
+          "sklep": "Biedronka #5766",
+          "nazwa": "Kefir Krasnystaw 420g",
+          "nazwaNaParagonie": "Kefir Krasnystaw 420g",
+          "kwota": 11.56,
+          "ilosc": 4,
+          "jednostka": "szt"
+        },
+        {
+          "data": "2026-09-16",
+          "sklep": "Biedronka #5766",
+          "nazwa": "Opust kefir",
+          "nazwaNaParagonie": "Opust kefir",
+          "kwota": -5.78
+        },
+        {
+          "data": "2026-09-17",
+          "sklep": "Wiesław Ryciuk",
+          "nazwa": "Nabiał",
+          "nazwaNaParagonie": "Nabiał",
+          "kwota": 12.2
+        },
+        {
+          "data": "2026-09-18",
+          "sklep": "E.Leclerc Hipermarket Ursynów",
+          "nazwa": "Ser Roquefort",
+          "nazwaNaParagonie": "Ser Roquefort",
+          "kwota": 13.19,
+          "ilosc": 0.136,
+          "jednostka": "kg"
+        },
+        {
+          "data": "2026-09-18",
+          "sklep": "E.Leclerc Hipermarket Ursynów",
+          "nazwa": "Ser Gouda holenderski",
+          "nazwaNaParagonie": "Ser Gouda holenderski",
+          "kwota": 20.0,
+          "ilosc": 0.4,
+          "jednostka": "kg"
+        }
+      ]
+    },
+    {
+      "nazwa": "Warzywa",
+      "suma": 66.71,
+      "pozycje": [
+        {
+          "data": "2026-09-16",
+          "sklep": "Biedronka #5766",
+          "nazwa": "Sałata masłowa",
+          "nazwaNaParagonie": "Sałata masłowa",
+          "kwota": 3.99,
+          "ilosc": 1,
+          "jednostka": "szt"
+        },
+        {
+          "data": "2026-09-16",
+          "sklep": "Biedronka #5766",
+          "nazwa": "Papryka słodka czerwona",
+          "nazwaNaParagonie": "Papryka słodka czerwona",
+          "kwota": 2.42,
+          "ilosc": 0.186,
+          "jednostka": "kg"
+        },
         {
           "data": "2026-09-17",
           "sklep": "Wiesław Ryciuk",
@@ -429,37 +601,6 @@
           "kwota": 3.0,
           "ilosc": 1,
           "jednostka": "szt"
-        }
-      ]
-    },
-    {
-      "nazwa": "Nabiał",
-      "suma": 45.39,
-      "pozycje": [
-        {
-          "data": "2026-09-17",
-          "sklep": "Wiesław Ryciuk",
-          "nazwa": "Nabiał",
-          "nazwaNaParagonie": "Nabiał",
-          "kwota": 12.2
-        },
-        {
-          "data": "2026-09-18",
-          "sklep": "E.Leclerc Hipermarket Ursynów",
-          "nazwa": "Ser Roquefort",
-          "nazwaNaParagonie": "Ser Roquefort",
-          "kwota": 13.19,
-          "ilosc": 0.136,
-          "jednostka": "kg"
-        },
-        {
-          "data": "2026-09-18",
-          "sklep": "E.Leclerc Hipermarket Ursynów",
-          "nazwa": "Ser Gouda holenderski",
-          "nazwaNaParagonie": "Ser Gouda holenderski",
-          "kwota": 20.0,
-          "ilosc": 0.4,
-          "jednostka": "kg"
         }
       ]
     },
@@ -560,8 +701,17 @@
     },
     {
       "nazwa": "Pieczywo",
-      "suma": 21.12,
+      "suma": 24.11,
       "pozycje": [
+        {
+          "data": "2026-09-16",
+          "sklep": "Biedronka #5766",
+          "nazwa": "Tost pszenny 500g",
+          "nazwaNaParagonie": "Tost pszenny 500g",
+          "kwota": 2.99,
+          "ilosc": 1,
+          "jednostka": "szt"
+        },
         {
           "data": "2026-09-19",
           "sklep": "Piekarnia K. i A. Cichowscy",
@@ -604,8 +754,17 @@
     },
     {
       "nazwa": "Napoje",
-      "suma": 9.0,
+      "suma": 11.38,
       "pozycje": [
+        {
+          "data": "2026-09-16",
+          "sklep": "Biedronka #5766",
+          "nazwa": "Polaris niegazowana 1,5l",
+          "nazwaNaParagonie": "Polaris niegazowana 1,5l",
+          "kwota": 2.38,
+          "ilosc": 2,
+          "jednostka": "szt"
+        },
         {
           "data": "2026-09-17",
           "sklep": "Wiesław Ryciuk",
@@ -616,9 +775,207 @@
           "jednostka": "szt"
         }
       ]
+    },
+    {
+      "nazwa": "Owoce",
+      "suma": 7.43,
+      "pozycje": [
+        {
+          "data": "2026-09-16",
+          "sklep": "Biedronka #5766",
+          "nazwa": "Banan kiść bio",
+          "nazwaNaParagonie": "Banan kiść bio",
+          "kwota": 7.43,
+          "ilosc": 0.826,
+          "jednostka": "kg"
+        }
+      ]
+    },
+    {
+      "nazwa": "Kaucja / opakowania",
+      "suma": 1.0,
+      "pozycje": [
+        {
+          "data": "2026-09-16",
+          "sklep": "Biedronka #5766",
+          "nazwa": "Kaucja butelka plastik",
+          "nazwaNaParagonie": "Kaucja butelka plastik",
+          "kwota": 1.0,
+          "ilosc": 2,
+          "jednostka": "szt"
+        }
+      ]
     }
   ],
   "paragony": [
+    {
+      "id": "2026-09-13-petrodis",
+      "sklep": "Petrodis Sp. z o.o.",
+      "adres": "Cynamonowa 53, 02-777 Warszawa",
+      "nip": "9512499846",
+      "dataGodzina": "2026-09-13T13:59",
+      "platnosc": "karta",
+      "dowod": "faktura-petrodis-paliwo-2026-09-13.jpg",
+      "typ": "faktura",
+      "sumaParagonu": 499.38,
+      "sumaPozycji": 499.38,
+      "walidacja": {
+        "sumaPozycji": 499.38,
+        "sumaParagonu": 499.38,
+        "zgadzaSie": true
+      },
+      "pozycje": [
+        {
+          "nazwa": "PB98 E5A (benzyna)",
+          "kwota": 499.38,
+          "kategoria": "Paliwo",
+          "ilosc": 58.0,
+          "jednostka": "l",
+          "cenaJednostkowa": 8.61
+        }
+      ],
+      "nrDokumentu": "428200155983"
+    },
+    {
+      "id": "2026-09-16-biedronka",
+      "sklep": "Biedronka #5766 / Jeronimo Martins",
+      "adres": "Dereniowa 4, 00-776 Warszawa",
+      "nip": null,
+      "dataGodzina": "2026-09-16T22:18",
+      "platnosc": "karta",
+      "dowod": "paragon-biedronka-2026-09-16.jpg",
+      "typ": "paragon",
+      "sumaParagonu": 58.2,
+      "sumaPozycji": 58.2,
+      "walidacja": {
+        "sumaPozycji": 58.2,
+        "sumaParagonu": 58.2,
+        "zgadzaSie": true
+      },
+      "pozycje": [
+        {
+          "nazwa": "Jogurt Skyr Owocowy Ogród 1kg",
+          "kwota": 8.99,
+          "kategoria": "Nabiał",
+          "ilosc": 1.0,
+          "jednostka": "szt"
+        },
+        {
+          "nazwa": "Banan kiść bio",
+          "kwota": 7.43,
+          "kategoria": "Owoce",
+          "ilosc": 0.826,
+          "jednostka": "kg",
+          "cenaJednostkowa": 8.99
+        },
+        {
+          "nazwa": "Tost pszenny 500g",
+          "kwota": 2.99,
+          "kategoria": "Pieczywo",
+          "ilosc": 1.0,
+          "jednostka": "szt"
+        },
+        {
+          "nazwa": "Jogurt naturalny Bako 300g+50g",
+          "kwota": 7.98,
+          "kategoria": "Nabiał",
+          "ilosc": 2.0,
+          "jednostka": "szt",
+          "cenaJednostkowa": 3.99
+        },
+        {
+          "nazwa": "Sałata masłowa",
+          "kwota": 3.99,
+          "kategoria": "Warzywa",
+          "ilosc": 1.0,
+          "jednostka": "szt"
+        },
+        {
+          "nazwa": "Papryka słodka czerwona",
+          "kwota": 2.42,
+          "kategoria": "Warzywa",
+          "ilosc": 0.186,
+          "jednostka": "kg",
+          "cenaJednostkowa": 12.99
+        },
+        {
+          "nazwa": "Guma Orbit Spearmint 50g",
+          "kwota": 7.49,
+          "kategoria": "Słodycze i przekąski",
+          "ilosc": 1.0,
+          "jednostka": "szt"
+        },
+        {
+          "nazwa": "Polaris niegazowana 1,5l",
+          "kwota": 2.38,
+          "kategoria": "Napoje",
+          "ilosc": 2.0,
+          "jednostka": "szt",
+          "cenaJednostkowa": 1.19
+        },
+        {
+          "nazwa": "Kefir Krasnystaw 420g",
+          "kwota": 11.56,
+          "kategoria": "Nabiał",
+          "ilosc": 4.0,
+          "jednostka": "szt",
+          "cenaJednostkowa": 2.89
+        },
+        {
+          "nazwa": "Opust kefir",
+          "kwota": -5.78,
+          "kategoria": "Nabiał"
+        },
+        {
+          "nazwa": "Rogal / croissant 60g",
+          "kwota": 8.95,
+          "kategoria": "Wypieki słodkie",
+          "ilosc": 5.0,
+          "jednostka": "szt",
+          "cenaJednostkowa": 1.79
+        },
+        {
+          "nazwa": "Opust rogale",
+          "kwota": -1.2,
+          "kategoria": "Wypieki słodkie"
+        },
+        {
+          "nazwa": "Kaucja butelka plastik",
+          "kwota": 1.0,
+          "kategoria": "Kaucja / opakowania",
+          "ilosc": 2.0,
+          "jednostka": "szt",
+          "cenaJednostkowa": 0.5
+        }
+      ],
+      "uwaga": "SUMA PLN 57,20 + kaucja 1,00 = DO ZAPŁATY 58,20"
+    },
+    {
+      "id": "2026-09-16-leclerc-pendrive",
+      "sklep": "E.Leclerc / IMMOMOK Sp. z o.o.",
+      "adres": "Ciszewskiego 15, 02-777 Warszawa",
+      "nip": "5271023642",
+      "dataGodzina": "2026-09-16T16:24",
+      "platnosc": "karta",
+      "dowod": "faktura-leclerc-pendrive-2026-09-16.jpg",
+      "typ": "faktura",
+      "sumaParagonu": 119.99,
+      "sumaPozycji": 119.99,
+      "walidacja": {
+        "sumaPozycji": 119.99,
+        "sumaParagonu": 119.99,
+        "zgadzaSie": true
+      },
+      "pozycje": [
+        {
+          "nazwa": "SanDisk Pendrive 128GB",
+          "kwota": 119.99,
+          "kategoria": "Elektronika / IT",
+          "ilosc": 1.0,
+          "jednostka": "szt"
+        }
+      ]
+    },
     {
       "id": "2026-09-17-slodki",
       "sklep": "Słodki Grzech Sp. z o.o.",
@@ -627,6 +984,7 @@
       "dataGodzina": "2026-09-17T11:32",
       "platnosc": "karta",
       "dowod": "paragony-2026-09-17.jpg",
+      "typ": "paragon",
       "sumaParagonu": 15.8,
       "sumaPozycji": 15.8,
       "walidacja": {
@@ -658,6 +1016,7 @@
       "dataGodzina": "2026-09-17T12:10",
       "platnosc": "karta",
       "dowod": "paragony-2026-09-17.jpg",
+      "typ": "paragon",
       "sumaParagonu": 4.99,
       "sumaPozycji": 4.99,
       "walidacja": {
@@ -683,6 +1042,7 @@
       "dataGodzina": "2026-09-17T12:20",
       "platnosc": "gotówka",
       "dowod": "paragony-2026-09-17.jpg",
+      "typ": "paragon",
       "sumaParagonu": 29.2,
       "sumaPozycji": 29.2,
       "walidacja": {
@@ -724,6 +1084,7 @@
       "dataGodzina": "2026-09-17T17:25",
       "platnosc": "karta",
       "dowod": "paragony-2026-09-17.jpg",
+      "typ": "paragon",
       "sumaParagonu": 57.38,
       "sumaPozycji": 57.38,
       "walidacja": {
@@ -777,6 +1138,7 @@
       "dataGodzina": "2026-09-18T18:01",
       "platnosc": "karta",
       "dowod": "paragon-leclerc-2026-09-18.jpg",
+      "typ": "paragon",
       "sumaParagonu": 314.9,
       "sumaPozycji": 314.9,
       "walidacja": {
@@ -977,6 +1339,7 @@
       "dataGodzina": "2026-09-19T13:54",
       "platnosc": "karta",
       "dowod": "paragony-oryginal.jpg",
+      "typ": "paragon",
       "sumaParagonu": 32.52,
       "sumaPozycji": 32.52,
       "walidacja": {
@@ -991,7 +1354,7 @@
           "kategoria": "Mięso, wędliny, ryby",
           "ilosc": 0.31,
           "jednostka": "kg",
-          "alias": "Mięso mielone wieprzowo-wołowe (część wołowa / jak na paragonie)",
+          "alias": "Mięso mielone wieprzowo-wołowe (na paragonie: Gulasz wołowy)",
           "cenaJednostkowa": 73.8
         },
         {
@@ -1000,11 +1363,11 @@
           "kategoria": "Mięso, wędliny, ryby",
           "ilosc": 0.314,
           "jednostka": "kg",
-          "alias": "Mięso mielone wieprzowo-wołowe (część wieprzowa / jak na paragonie)",
+          "alias": "Mięso mielone wieprzowo-wołowe (na paragonie: Mięso wp. od szynki)",
           "cenaJednostkowa": 30.7
         }
       ],
-      "uwaga": "Wg kupującego: mięso mielone wieprzowo-wołowe. Na fiskalnym dwie pozycje poniżej."
+      "uwaga": "Wg kupującego: mięso mielone wieprzowo-wołowe. Na fiskalnym dwie pozycje."
     },
     {
       "id": "2026-09-19-cichowscy",
@@ -1014,6 +1377,7 @@
       "dataGodzina": "2026-09-19T14:04",
       "platnosc": "karta",
       "dowod": "paragony-oryginal.jpg",
+      "typ": "paragon",
       "sumaParagonu": 89.11,
       "sumaPozycji": 89.11,
       "walidacja": {
@@ -1072,6 +1436,7 @@
       "dataGodzina": "2026-09-19T14:16",
       "platnosc": "karta",
       "dowod": "paragony-oryginal.jpg",
+      "typ": "paragon",
       "sumaParagonu": 49.3,
       "sumaPozycji": 49.3,
       "walidacja": {
@@ -1097,6 +1462,7 @@
       "dataGodzina": "2026-09-19T14:18",
       "platnosc": "karta",
       "dowod": "paragony-oryginal.jpg",
+      "typ": "paragon",
       "sumaParagonu": 3.0,
       "sumaPozycji": 3.0,
       "walidacja": {
@@ -1122,6 +1488,7 @@
       "dataGodzina": "2026-09-19T14:32",
       "platnosc": "karta",
       "dowod": "paragon-putka.jpg",
+      "typ": "paragon",
       "sumaParagonu": 62.0,
       "sumaPozycji": 62.0,
       "walidacja": {
