@@ -1,0 +1,75 @@
+{
+  "data": "2026-09-19",
+  "waluta": "PLN",
+  "dowodFotograficzny": "paragony-oryginal.jpg",
+  "sumaCalkowita": 173.93,
+  "kategorie": [
+    {
+      "nazwa": "Warzywa",
+      "suma": 52.3,
+      "pozycje": [
+        { "sklep": "Gaerfild", "nazwa": "Warzywa", "ilosc": 1.0, "jednostka": "szt", "kwota": 49.3 },
+        { "sklep": "Gaerfild", "nazwa": "Warzywa", "ilosc": 1.0, "jednostka": "szt", "kwota": 3.0 }
+      ]
+    },
+    {
+      "nazwa": "Mięso",
+      "suma": 32.52,
+      "pozycje": [
+        { "sklep": "GROT", "nazwa": "Gulasz wołowy", "ilosc": 0.31, "jednostka": "kg", "cenaJednostkowa": 73.8, "kwota": 22.88 },
+        { "sklep": "GROT", "nazwa": "Mięso wp. od szynki", "ilosc": 0.314, "jednostka": "kg", "cenaJednostkowa": 30.7, "kwota": 9.64 }
+      ]
+    },
+    {
+      "nazwa": "Pieczywo",
+      "suma": 21.12,
+      "pozycje": [
+        { "sklep": "Piekarnia Cichowscy", "nazwa": "Bajgiel z sezamem i siemieniem", "ilosc": 2, "jednostka": "szt", "cenaJednostkowa": 4.1, "kwota": 8.2 },
+        { "sklep": "Piekarnia Cichowscy", "nazwa": "Chleb Zaścianek", "ilosc": 0.564, "jednostka": "kg", "cenaJednostkowa": 22.9, "kwota": 12.92 }
+      ]
+    },
+    {
+      "nazwa": "Wypieki słodkie",
+      "suma": 67.99,
+      "pozycje": [
+        { "sklep": "Piekarnia Cichowscy", "nazwa": "Sernik Stracciatella", "ilosc": 0.278, "jednostka": "kg", "cenaJednostkowa": 52.9, "kwota": 14.71 },
+        { "sklep": "Piekarnia Cichowscy", "nazwa": "Pączki nadziane z porzeczką", "ilosc": 4, "jednostka": "szt", "cenaJednostkowa": 6.9, "kwota": 27.6 },
+        { "sklep": "Piekarnia Cichowscy", "nazwa": "Pączki nadziane z różą", "ilosc": 3, "jednostka": "szt", "cenaJednostkowa": 8.56, "kwota": 25.68 }
+      ]
+    }
+  ],
+  "paragony": [
+    {
+      "sklep": "Robert Król F.H. Gaerfild",
+      "adres": "Dereniowa 6, 02-776 Warszawa",
+      "nip": "7342609937",
+      "dataGodzina": "2026-09-19T14:16",
+      "suma": 49.3,
+      "platnosc": "karta"
+    },
+    {
+      "sklep": "SEJ Sp. z o.o. — Delikatesy Mięsne GROT",
+      "adres": "Dereniowa 10 lok. U8, 02-776 Warszawa",
+      "nip": "5342655758",
+      "dataGodzina": "2026-09-19T13:54",
+      "suma": 32.52,
+      "platnosc": "karta"
+    },
+    {
+      "sklep": "Robert Król F.H. Gaerfild",
+      "adres": "Dereniowa 6, 02-776 Warszawa",
+      "nip": "7342609937",
+      "dataGodzina": "2026-09-19T14:18",
+      "suma": 3.0,
+      "platnosc": "karta"
+    },
+    {
+      "sklep": "Piekarnia K. i A. Cichowscy, E. Federowicz Sp. z o.o.",
+      "adres": "Cynamonowa 19 lok. U1, 02-777 Warszawa",
+      "nip": "1130026398",
+      "dataGodzina": "2026-09-19T14:04",
+      "suma": 89.11,
+      "platnosc": "karta"
+    }
+  ]
+}
