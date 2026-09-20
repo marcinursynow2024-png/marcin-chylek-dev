@@ -5,8 +5,8 @@
   },
   "miasto": "Warszawa",
   "waluta": "PLN",
-  "sumaCalkowita": 2470.92,
-  "liczbaDokumentow": 24,
+  "sumaCalkowita": 2479.4,
+  "liczbaDokumentow": 25,
   "zasadaWalidacji": "Dla każdego dokumentu: suma(pozycje) == kwota do zapłaty.",
   "dowodyFotograficzne": [
     "faktura-leclerc-pendrive-2026-09-16.jpg",
@@ -18,6 +18,7 @@
     "paragon-leclerc-2026-09-18.jpg",
     "paragon-putka.jpg",
     "paragon-rozaniec-2026-09-15.jpg",
+    "paragon-zabka-2026-09-20.jpg",
     "paragony-2026-09-16-grot-leclerc-pishka.jpg",
     "paragony-2026-09-17.jpg",
     "paragony-oryginal.jpg"
@@ -55,8 +56,8 @@
     },
     {
       "data": "2026-09-20",
-      "suma": 256.0,
-      "liczbaDokumentow": 5
+      "suma": 264.48,
+      "liczbaDokumentow": 6
     }
   ],
   "walidacjaDokumentow": [
@@ -226,6 +227,13 @@
       "sklep": "Zakup bez paragonu (e-booki)",
       "sumaPozycji": 120.0,
       "sumaParagonu": 120.0,
+      "zgadzaSie": true
+    },
+    {
+      "id": "2026-09-20-zabka",
+      "sklep": "Żabka ZA810 / PHU Paweł Jóźwiak",
+      "sumaPozycji": 8.48,
+      "sumaParagonu": 8.48,
       "zgadzaSie": true
     }
   ],
@@ -629,7 +637,7 @@
     },
     {
       "nazwa": "Słodycze i przekąski",
-      "suma": 181.39,
+      "suma": 185.38,
       "pozycje": [
         {
           "data": "2026-09-15",
@@ -830,6 +838,15 @@
           "nazwa": "Opust Milka Alpine",
           "nazwaNaParagonie": "Opust Milka Alpine",
           "kwota": -9.99
+        },
+        {
+          "data": "2026-09-20",
+          "sklep": "Żabka ZA810",
+          "nazwa": "Mus Wojanek jabłko-banan 100g",
+          "nazwaNaParagonie": "Mus Wojanek jabłko-banan 100g",
+          "kwota": 3.99,
+          "ilosc": 1,
+          "jednostka": "szt"
         }
       ]
     },
@@ -1337,7 +1354,7 @@
     },
     {
       "nazwa": "Napoje",
-      "suma": 63.04,
+      "suma": 67.03,
       "pozycje": [
         {
           "data": "2026-09-15",
@@ -1417,6 +1434,15 @@
           "nazwa": "Herbata liść Adal Trop 100g",
           "nazwaNaParagonie": "Herbata liść Adal Trop 100g",
           "kwota": 18.99,
+          "ilosc": 1,
+          "jednostka": "szt"
+        },
+        {
+          "data": "2026-09-20",
+          "sklep": "Żabka ZA810",
+          "nazwa": "Napój Palionek smoczy 300ml",
+          "nazwaNaParagonie": "Napój Palionek smoczy 300ml",
+          "kwota": 3.99,
           "ilosc": 1,
           "jednostka": "szt"
         }
@@ -1637,7 +1663,7 @@
     },
     {
       "nazwa": "Kaucja / opakowania",
-      "suma": 1.5,
+      "suma": 2.0,
       "pozycje": [
         {
           "data": "2026-09-16",
@@ -1653,6 +1679,15 @@
           "sklep": "E.Leclerc Hipermarket Ursynów",
           "nazwa": "Kaucja butelka PET",
           "nazwaNaParagonie": "Kaucja butelka PET",
+          "kwota": 0.5,
+          "ilosc": 1,
+          "jednostka": "szt"
+        },
+        {
+          "data": "2026-09-20",
+          "sklep": "Żabka ZA810",
+          "nazwa": "Kaucja butelka plastik",
+          "nazwaNaParagonie": "Kaucja butelka plastik",
           "kwota": 0.5,
           "ilosc": 1,
           "jednostka": "szt"
@@ -3156,6 +3191,48 @@
       "walidacja": {
         "sumaPozycji": 120.0,
         "sumaParagonu": 120.0,
+        "zgadzaSie": true
+      }
+    },
+    {
+      "id": "2026-09-20-zabka",
+      "sklep": "Żabka ZA810 / PHU Paweł Jóźwiak",
+      "adres": "ul. Dereniowa 6, 02-776 Warszawa",
+      "nip": "5681589521",
+      "dataGodzina": "2026-09-20T18:53",
+      "platnosc": "karta",
+      "dowod": "paragon-zabka-2026-09-20.jpg",
+      "typ": "paragon",
+      "nrParagonu": "455698",
+      "sumaParagonu": 8.48,
+      "uwaga": "SUMA PLN 7,98 + kaucja 0,50 = DO ZAPŁATY 8,48",
+      "pozycje": [
+        {
+          "nazwa": "Mus Wojanek jabłko-banan 100g",
+          "ilosc": 1,
+          "jednostka": "szt",
+          "kwota": 3.99,
+          "kategoria": "Słodycze i przekąski"
+        },
+        {
+          "nazwa": "Napój Palionek smoczy 300ml",
+          "ilosc": 1,
+          "jednostka": "szt",
+          "kwota": 3.99,
+          "kategoria": "Napoje"
+        },
+        {
+          "nazwa": "Kaucja butelka plastik",
+          "ilosc": 1,
+          "jednostka": "szt",
+          "kwota": 0.5,
+          "kategoria": "Kaucja / opakowania"
+        }
+      ],
+      "sumaPozycji": 8.48,
+      "walidacja": {
+        "sumaPozycji": 8.48,
+        "sumaParagonu": 8.48,
         "zgadzaSie": true
       }
     }

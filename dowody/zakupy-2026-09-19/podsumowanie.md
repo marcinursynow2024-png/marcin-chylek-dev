@@ -1,19 +1,20 @@
 # Wydatki — 13.09–20.09.2026
 
-**Razem:** **2470,92 zł** (24 pozycji/dokumentów)  
-**Zasada:** `suma pozycji == kwota` (paragony + deklaracje bez paragonu).
+**Razem:** **2479,40 zł** (25 pozycji)  
+**Zasada:** `suma pozycji == kwota`.
 
 ---
 ## Dziś (20.09.2026)
 
 | Pozycja | Kwota | Dowód |
 |---------|------:|-------|
-| Gofry ×2 + Nutella (Klubokawiarnia Pomysł) | 31,00 zł | paragon ✓ |
 | Książka | 50,00 zł | bez paragonu |
 | Kubek | 25,00 zł | bez paragonu |
 | Ofiara na tacę | 30,00 zł | bez paragonu |
 | Zestaw e-booków | 120,00 zł | bez paragonu |
-| **Razem dziś** | **256,00 zł** | |
+| Gofry, Nutella | 31,00 zł | paragon ✓ |
+| Mus Wojanek jabłko-banan 100g, Napój Palionek smoc | 8,48 zł | paragon ✓ |
+| **Razem dziś** | **264,48 zł** | |
 
 ---
 ## Walidacja
@@ -44,27 +45,28 @@
 | 20.09 Ofiara na tacę (kościół) | 30,00 zł | 30,00 zł | ✓ |
 | 20.09 Zakup bez paragonu (e-booki) | 120,00 zł | 120,00 zł | ✓ |
 | 20.09 Klubokawiarnia Pomysł BIS — Aleksandra W | 31,00 zł | 31,00 zł | ✓ |
+| 20.09 Żabka ZA810 / PHU Paweł Jóźwiak | 8,48 zł | 8,48 zł | ✓ |
 
 ---
 ## Podsumowanie wg kategorii
 
 | Kategoria | Kwota | Udział |
 |-----------|------:|-------:|
-| Paliwo | 499,38 zł | 20.2% |
-| Nabiał | 216,39 zł | 8.8% |
+| Paliwo | 499,38 zł | 20.1% |
+| Nabiał | 216,39 zł | 8.7% |
 | Przetwory i przyprawy | 189,92 zł | 7.7% |
-| Słodycze i przekąski | 181,39 zł | 7.3% |
+| Słodycze i przekąski | 185,38 zł | 7.5% |
 | Wypieki słodkie | 170,27 zł | 6.9% |
 | Mięso, wędliny, ryby | 161,18 zł | 6.5% |
-| Rękodzieło / religia | 129,90 zł | 5.3% |
-| E-booki / treści cyfrowe | 120,00 zł | 4.9% |
-| Elektronika / IT | 119,99 zł | 4.9% |
+| Rękodzieło / religia | 129,90 zł | 5.2% |
+| E-booki / treści cyfrowe | 120,00 zł | 4.8% |
+| Elektronika / IT | 119,99 zł | 4.8% |
 | Książki | 89,97 zł | 3.6% |
 | Dom / tekstylia | 74,67 zł | 3.0% |
 | Artykuły biurowe | 74,44 zł | 3.0% |
 | Chemia / dom | 72,44 zł | 2.9% |
 | Warzywa | 72,11 zł | 2.9% |
-| Napoje | 63,04 zł | 2.6% |
+| Napoje | 67,03 zł | 2.7% |
 | Gotowe dania / sushi | 49,98 zł | 2.0% |
 | Pieczywo | 43,10 zł | 1.7% |
 | Rośliny / ogród | 31,99 zł | 1.3% |
@@ -74,9 +76,9 @@
 | Dom / naczynia | 25,00 zł | 1.0% |
 | Owoce | 17,78 zł | 0.7% |
 | Przesyłka / dostawa | 10,49 zł | 0.4% |
-| Kaucja / opakowania | 1,50 zł | 0.1% |
+| Kaucja / opakowania | 2,00 zł | 0.1% |
 | Vouchery / rabaty | -35,00 zł | -1.4% |
-| **Razem** | **2470,92 zł** | **100%** |
+| **Razem** | **2479,40 zł** | **100%** |
 
 ### Suma wg dnia
 | Dzień | Pozycje | Suma |
@@ -87,8 +89,8 @@
 | 17.09.2026 | 4 | 107,37 zł |
 | 18.09.2026 | 1 | 314,90 zł |
 | 19.09.2026 | 6 | 728,94 zł |
-| 20.09.2026 | 5 | 256,00 zł |
-| **Razem** | **24** | **2470,92 zł** |
+| 20.09.2026 | 6 | 264,48 zł |
+| **Razem** | **25** | **2479,40 zł** |
 
 ---
 ## Produkty w kategoriach
@@ -153,7 +155,7 @@
 | 19.09.2026 | Daktyle suszone Bak 200g (1 szt) | 6,89 zł |
 | 19.09.2026 | Opust daktyle | -3,46 zł |
 
-### Słodycze i przekąski — 181,39 zł
+### Słodycze i przekąski — 185,38 zł
 
 | Data | Produkt | Cena |
 |------|---------|-----:|
@@ -183,6 +185,7 @@
 | 19.09.2026 | Opust Milka Oreo | -10,00 zł |
 | 19.09.2026 | Czekolada Milka Alpine 250g (1 szt) | 19,99 zł |
 | 19.09.2026 | Opust Milka Alpine | -9,99 zł |
+| 20.09.2026 | Mus Wojanek jabłko-banan 100g (1 szt) | 3,99 zł |
 
 ### Wypieki słodkie — 170,27 zł
 
@@ -288,7 +291,7 @@
 | 19.09.2026 | Warzywa (1,0 szt) | 3,00 zł |
 | 19.09.2026 | Papryka słodka szp. luz (0,27 kg) | 5,40 zł |
 
-### Napoje — 63,04 zł
+### Napoje — 67,03 zł
 
 | Data | Produkt | Cena |
 |------|---------|-----:|
@@ -301,6 +304,7 @@
 | 19.09.2026 | Woda niegazowana 5L (1 szt) | 2,29 zł |
 | 19.09.2026 | Herbata liść Adal Gre 100g (1 szt) | 18,99 zł |
 | 19.09.2026 | Herbata liść Adal Trop 100g (1 szt) | 18,99 zł |
+| 20.09.2026 | Napój Palionek smoczy 300ml (1 szt) | 3,99 zł |
 
 ### Gotowe dania / sushi — 49,98 zł
 
@@ -366,12 +370,13 @@
 |------|---------|-----:|
 | 15.09.2026 | Przesyłka (1 szt) | 10,49 zł |
 
-### Kaucja / opakowania — 1,50 zł
+### Kaucja / opakowania — 2,00 zł
 
 | Data | Produkt | Cena |
 |------|---------|-----:|
 | 16.09.2026 | Kaucja butelka plastik (2,0 szt) | 1,00 zł |
 | 16.09.2026 | Kaucja butelka PET (1 szt) | 0,50 zł |
+| 20.09.2026 | Kaucja butelka plastik (1 szt) | 0,50 zł |
 
 ### Vouchery / rabaty — -35,00 zł
 
