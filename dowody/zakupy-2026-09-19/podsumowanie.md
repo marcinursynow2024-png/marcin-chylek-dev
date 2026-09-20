@@ -1,72 +1,94 @@
-# Zakupy — 13.09–19.09.2026
+# Wydatki — 13.09–20.09.2026
 
-**Razem:** **2214,92 zł** (19 dokumentów)  
-**Zasada:** `suma pozycji == kwota do zapłaty`.
+**Razem:** **2470,92 zł** (24 pozycji/dokumentów)  
+**Zasada:** `suma pozycji == kwota` (paragony + deklaracje bez paragonu).
 
 ---
-## Walidacja dokumentów
+## Dziś (20.09.2026)
 
-| Dokument | Suma pozycji | Do zapłaty | Status |
-|----------|-------------:|-----------:|--------|
-| 13.09 Petrodis Sp. z o.o. | 499,38 zł | 499,38 zł | ✓ OK |
-| 15.09 Mariusz Janawa — Różańce | 140,39 zł | 140,39 zł | ✓ OK |
-| 15.09 P.P.H.U. ADAM | 73,37 zł | 73,37 zł | ✓ OK |
-| 16.09 PISHKAPL Sp. z o.o. | 16,00 zł | 16,00 zł | ✓ OK |
-| 16.09 E.Leclerc / IMMOMOK Sp. z o.o. | 119,99 zł | 119,99 zł | ✓ OK |
-| 16.09 E.Leclerc Hipermarket Ursynów | 84,02 zł | 84,02 zł | ✓ OK |
-| 16.09 SEJ Sp. z o.o. — Delikatesy Mięsne GROT | 72,36 zł | 72,36 zł | ✓ OK |
-| 16.09 Biedronka #5766 / Jeronimo Martins | 58,20 zł | 58,20 zł | ✓ OK |
-| 17.09 Słodki Grzech Sp. z o.o. | 15,80 zł | 15,80 zł | ✓ OK |
-| 17.09 Żabka ZA810 / PHU Paweł Jóźwiak | 4,99 zł | 4,99 zł | ✓ OK |
-| 17.09 Wiesław Ryciuk — Warzywa i Owoce | 29,20 zł | 29,20 zł | ✓ OK |
-| 17.09 E.Leclerc / IMMOMOK Sp. z o.o. | 57,38 zł | 57,38 zł | ✓ OK |
-| 18.09 E.Leclerc Hipermarket Ursynów | 314,90 zł | 314,90 zł | ✓ OK |
-| 19.09 SEJ Sp. z o.o. — Delikatesy Mięsne GROT | 32,52 zł | 32,52 zł | ✓ OK |
-| 19.09 Piekarnia K. i A. Cichowscy | 89,11 zł | 89,11 zł | ✓ OK |
-| 19.09 Robert Król F.H. Gaerfild | 49,30 zł | 49,30 zł | ✓ OK |
-| 19.09 Robert Król F.H. Gaerfild | 3,00 zł | 3,00 zł | ✓ OK |
-| 19.09 Putka Sp. z o.o. | 62,00 zł | 62,00 zł | ✓ OK |
-| 19.09 Biedronka #5766 / Jeronimo Martins | 493,01 zł | 493,01 zł | ✓ OK |
+| Pozycja | Kwota | Dowód |
+|---------|------:|-------|
+| Gofry ×2 + Nutella (Klubokawiarnia Pomysł) | 31,00 zł | paragon ✓ |
+| Książka | 50,00 zł | bez paragonu |
+| Kubek | 25,00 zł | bez paragonu |
+| Ofiara na tacę | 30,00 zł | bez paragonu |
+| Zestaw e-booków | 120,00 zł | bez paragonu |
+| **Razem dziś** | **256,00 zł** | |
+
+---
+## Walidacja
+
+| Dokument | Suma pozycji | Kwota | Status |
+|----------|-------------:|------:|--------|
+| 13.09 Petrodis Sp. z o.o. | 499,38 zł | 499,38 zł | ✓ |
+| 15.09 Mariusz Janawa — Różańce | 140,39 zł | 140,39 zł | ✓ |
+| 15.09 P.P.H.U. ADAM | 73,37 zł | 73,37 zł | ✓ |
+| 16.09 PISHKAPL Sp. z o.o. | 16,00 zł | 16,00 zł | ✓ |
+| 16.09 E.Leclerc / IMMOMOK Sp. z o.o. | 119,99 zł | 119,99 zł | ✓ |
+| 16.09 E.Leclerc Hipermarket Ursynów | 84,02 zł | 84,02 zł | ✓ |
+| 16.09 SEJ Sp. z o.o. — Delikatesy Mięsne GROT | 72,36 zł | 72,36 zł | ✓ |
+| 16.09 Biedronka #5766 / Jeronimo Martins | 58,20 zł | 58,20 zł | ✓ |
+| 17.09 Słodki Grzech Sp. z o.o. | 15,80 zł | 15,80 zł | ✓ |
+| 17.09 Żabka ZA810 / PHU Paweł Jóźwiak | 4,99 zł | 4,99 zł | ✓ |
+| 17.09 Wiesław Ryciuk — Warzywa i Owoce | 29,20 zł | 29,20 zł | ✓ |
+| 17.09 E.Leclerc / IMMOMOK Sp. z o.o. | 57,38 zł | 57,38 zł | ✓ |
+| 18.09 E.Leclerc Hipermarket Ursynów | 314,90 zł | 314,90 zł | ✓ |
+| 19.09 SEJ Sp. z o.o. — Delikatesy Mięsne GROT | 32,52 zł | 32,52 zł | ✓ |
+| 19.09 Piekarnia K. i A. Cichowscy | 89,11 zł | 89,11 zł | ✓ |
+| 19.09 Robert Król F.H. Gaerfild | 49,30 zł | 49,30 zł | ✓ |
+| 19.09 Robert Król F.H. Gaerfild | 3,00 zł | 3,00 zł | ✓ |
+| 19.09 Putka Sp. z o.o. | 62,00 zł | 62,00 zł | ✓ |
+| 19.09 Biedronka #5766 / Jeronimo Martins | 493,01 zł | 493,01 zł | ✓ |
+| 20.09 Zakup bez paragonu | 50,00 zł | 50,00 zł | ✓ |
+| 20.09 Zakup bez paragonu | 25,00 zł | 25,00 zł | ✓ |
+| 20.09 Ofiara na tacę (kościół) | 30,00 zł | 30,00 zł | ✓ |
+| 20.09 Zakup bez paragonu (e-booki) | 120,00 zł | 120,00 zł | ✓ |
+| 20.09 Klubokawiarnia Pomysł BIS — Aleksandra W | 31,00 zł | 31,00 zł | ✓ |
 
 ---
 ## Podsumowanie wg kategorii
 
 | Kategoria | Kwota | Udział |
 |-----------|------:|-------:|
-| Paliwo | 499,38 zł | 22.5% |
-| Nabiał | 216,39 zł | 9.8% |
-| Przetwory i przyprawy | 189,92 zł | 8.6% |
-| Słodycze i przekąski | 181,39 zł | 8.2% |
-| Wypieki słodkie | 170,27 zł | 7.7% |
-| Mięso, wędliny, ryby | 161,18 zł | 7.3% |
-| Rękodzieło / religia | 129,90 zł | 5.9% |
-| Elektronika / IT | 119,99 zł | 5.4% |
-| Dom / tekstylia | 74,67 zł | 3.4% |
-| Artykuły biurowe | 74,44 zł | 3.4% |
-| Chemia / dom | 72,44 zł | 3.3% |
-| Warzywa | 72,11 zł | 3.3% |
-| Napoje | 63,04 zł | 2.8% |
-| Gotowe dania / sushi | 49,98 zł | 2.3% |
-| Pieczywo | 43,10 zł | 1.9% |
-| Książki | 39,97 zł | 1.8% |
-| Rośliny / ogród | 31,99 zł | 1.4% |
-| Zabawki | 29,99 zł | 1.4% |
-| Owoce | 17,78 zł | 0.8% |
-| Przesyłka / dostawa | 10,49 zł | 0.5% |
+| Paliwo | 499,38 zł | 20.2% |
+| Nabiał | 216,39 zł | 8.8% |
+| Przetwory i przyprawy | 189,92 zł | 7.7% |
+| Słodycze i przekąski | 181,39 zł | 7.3% |
+| Wypieki słodkie | 170,27 zł | 6.9% |
+| Mięso, wędliny, ryby | 161,18 zł | 6.5% |
+| Rękodzieło / religia | 129,90 zł | 5.3% |
+| E-booki / treści cyfrowe | 120,00 zł | 4.9% |
+| Elektronika / IT | 119,99 zł | 4.9% |
+| Książki | 89,97 zł | 3.6% |
+| Dom / tekstylia | 74,67 zł | 3.0% |
+| Artykuły biurowe | 74,44 zł | 3.0% |
+| Chemia / dom | 72,44 zł | 2.9% |
+| Warzywa | 72,11 zł | 2.9% |
+| Napoje | 63,04 zł | 2.6% |
+| Gotowe dania / sushi | 49,98 zł | 2.0% |
+| Pieczywo | 43,10 zł | 1.7% |
+| Rośliny / ogród | 31,99 zł | 1.3% |
+| Gastronomia / kawiarnia | 31,00 zł | 1.3% |
+| Darowizna / ofiara | 30,00 zł | 1.2% |
+| Zabawki | 29,99 zł | 1.2% |
+| Dom / naczynia | 25,00 zł | 1.0% |
+| Owoce | 17,78 zł | 0.7% |
+| Przesyłka / dostawa | 10,49 zł | 0.4% |
 | Kaucja / opakowania | 1,50 zł | 0.1% |
-| Vouchery / rabaty | -35,00 zł | -1.6% |
-| **Razem** | **2214,92 zł** | **100%** |
+| Vouchery / rabaty | -35,00 zł | -1.4% |
+| **Razem** | **2470,92 zł** | **100%** |
 
 ### Suma wg dnia
-| Dzień | Dokumenty | Suma |
-|-------|-----------|-----:|
+| Dzień | Pozycje | Suma |
+|-------|---------|-----:|
 | 13.09.2026 | 1 | 499,38 zł |
 | 15.09.2026 | 2 | 213,76 zł |
 | 16.09.2026 | 5 | 350,57 zł |
 | 17.09.2026 | 4 | 107,37 zł |
 | 18.09.2026 | 1 | 314,90 zł |
 | 19.09.2026 | 6 | 728,94 zł |
-| **Razem** | **19** | **2214,92 zł** |
+| 20.09.2026 | 5 | 256,00 zł |
+| **Razem** | **24** | **2470,92 zł** |
 
 ---
 ## Produkty w kategoriach
@@ -201,11 +223,26 @@
 |------|---------|-----:|
 | 15.09.2026 | Różaniec (1 szt) | 129,90 zł |
 
+### E-booki / treści cyfrowe — 120,00 zł
+
+| Data | Produkt | Cena |
+|------|---------|-----:|
+| 20.09.2026 | Zestaw e-booków (1 szt) | 120,00 zł |
+
 ### Elektronika / IT — 119,99 zł
 
 | Data | Produkt | Cena |
 |------|---------|-----:|
 | 16.09.2026 | SanDisk Pendrive 128GB (1,0 szt) | 119,99 zł |
+
+### Książki — 89,97 zł
+
+| Data | Produkt | Cena |
+|------|---------|-----:|
+| 18.09.2026 | Tania książka | 12,99 zł |
+| 18.09.2026 | Mix Historia | 16,99 zł |
+| 18.09.2026 | Tania książka | 9,99 zł |
+| 20.09.2026 | Książka (1 szt) | 50,00 zł |
 
 ### Dom / tekstylia — 74,67 zł
 
@@ -283,25 +320,36 @@
 | 19.09.2026 | Chleb Zaścianek (0,564 kg) | 12,92 zł |
 | 19.09.2026 | Tost pszenny 500g (1 szt) | 2,99 zł |
 
-### Książki — 39,97 zł
-
-| Data | Produkt | Cena |
-|------|---------|-----:|
-| 18.09.2026 | Tania książka | 12,99 zł |
-| 18.09.2026 | Mix Historia | 16,99 zł |
-| 18.09.2026 | Tania książka | 9,99 zł |
-
 ### Rośliny / ogród — 31,99 zł
 
 | Data | Produkt | Cena |
 |------|---------|-----:|
 | 19.09.2026 | Kwiat szeflera (1 szt) | 31,99 zł |
 
+### Gastronomia / kawiarnia — 31,00 zł
+
+| Data | Produkt | Cena |
+|------|---------|-----:|
+| 20.09.2026 | Gofry (2 szt) | 24,00 zł |
+| 20.09.2026 | Nutella (1 szt) | 7,00 zł |
+
+### Darowizna / ofiara — 30,00 zł
+
+| Data | Produkt | Cena |
+|------|---------|-----:|
+| 20.09.2026 | Ofiara na tacę | 30,00 zł |
+
 ### Zabawki — 29,99 zł
 
 | Data | Produkt | Cena |
 |------|---------|-----:|
 | 18.09.2026 | Gniotek Masło Jumbo | 29,99 zł |
+
+### Dom / naczynia — 25,00 zł
+
+| Data | Produkt | Cena |
+|------|---------|-----:|
+| 20.09.2026 | Kubek (1 szt) | 25,00 zł |
 
 ### Owoce — 17,78 zł
 

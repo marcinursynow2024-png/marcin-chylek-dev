@@ -1,12 +1,12 @@
 {
   "okres": {
     "od": "2026-09-13",
-    "do": "2026-09-19"
+    "do": "2026-09-20"
   },
   "miasto": "Warszawa",
   "waluta": "PLN",
-  "sumaCalkowita": 2214.92,
-  "liczbaDokumentow": 19,
+  "sumaCalkowita": 2470.92,
+  "liczbaDokumentow": 24,
   "zasadaWalidacji": "Dla każdego dokumentu: suma(pozycje) == kwota do zapłaty.",
   "dowodyFotograficzne": [
     "faktura-leclerc-pendrive-2026-09-16.jpg",
@@ -14,6 +14,7 @@
     "paragon-adam-2026-09-15.jpg",
     "paragon-biedronka-2026-09-16.jpg",
     "paragon-biedronka-2026-09-19.jpg",
+    "paragon-kawiarnia-2026-09-20.jpg",
     "paragon-leclerc-2026-09-18.jpg",
     "paragon-putka.jpg",
     "paragon-rozaniec-2026-09-15.jpg",
@@ -51,6 +52,11 @@
       "data": "2026-09-19",
       "suma": 728.94,
       "liczbaDokumentow": 6
+    },
+    {
+      "data": "2026-09-20",
+      "suma": 256.0,
+      "liczbaDokumentow": 5
     }
   ],
   "walidacjaDokumentow": [
@@ -185,6 +191,41 @@
       "sklep": "Biedronka #5766 / Jeronimo Martins",
       "sumaPozycji": 493.01,
       "sumaParagonu": 493.01,
+      "zgadzaSie": true
+    },
+    {
+      "id": "2026-09-20-kawiarnia",
+      "sklep": "Klubokawiarnia Pomysł BIS — Aleksandra Wierzbicka",
+      "sumaPozycji": 31.0,
+      "sumaParagonu": 31.0,
+      "zgadzaSie": true
+    },
+    {
+      "id": "2026-09-20-ksiazka",
+      "sklep": "Zakup bez paragonu",
+      "sumaPozycji": 50.0,
+      "sumaParagonu": 50.0,
+      "zgadzaSie": true
+    },
+    {
+      "id": "2026-09-20-kubek",
+      "sklep": "Zakup bez paragonu",
+      "sumaPozycji": 25.0,
+      "sumaParagonu": 25.0,
+      "zgadzaSie": true
+    },
+    {
+      "id": "2026-09-20-taca",
+      "sklep": "Ofiara na tacę (kościół)",
+      "sumaPozycji": 30.0,
+      "sumaParagonu": 30.0,
+      "zgadzaSie": true
+    },
+    {
+      "id": "2026-09-20-ebooki",
+      "sklep": "Zakup bez paragonu (e-booki)",
+      "sumaPozycji": 120.0,
+      "sumaParagonu": 120.0,
       "zgadzaSie": true
     }
   ],
@@ -1019,6 +1060,21 @@
       ]
     },
     {
+      "nazwa": "E-booki / treści cyfrowe",
+      "suma": 120.0,
+      "pozycje": [
+        {
+          "data": "2026-09-20",
+          "sklep": "Zakup bez paragonu (e-booki)",
+          "nazwa": "Zestaw e-booków",
+          "nazwaNaParagonie": "Zestaw e-booków",
+          "kwota": 120.0,
+          "ilosc": 1,
+          "jednostka": "szt"
+        }
+      ]
+    },
+    {
       "nazwa": "Elektronika / IT",
       "suma": 119.99,
       "pozycje": [
@@ -1029,6 +1085,42 @@
           "nazwaNaParagonie": "SanDisk Pendrive 128GB",
           "kwota": 119.99,
           "ilosc": 1.0,
+          "jednostka": "szt"
+        }
+      ]
+    },
+    {
+      "nazwa": "Książki",
+      "suma": 89.97,
+      "pozycje": [
+        {
+          "data": "2026-09-18",
+          "sklep": "E.Leclerc Hipermarket Ursynów",
+          "nazwa": "Tania książka",
+          "nazwaNaParagonie": "Tania książka",
+          "kwota": 12.99
+        },
+        {
+          "data": "2026-09-18",
+          "sklep": "E.Leclerc Hipermarket Ursynów",
+          "nazwa": "Mix Historia",
+          "nazwaNaParagonie": "Mix Historia",
+          "kwota": 16.99
+        },
+        {
+          "data": "2026-09-18",
+          "sklep": "E.Leclerc Hipermarket Ursynów",
+          "nazwa": "Tania książka",
+          "nazwaNaParagonie": "Tania książka",
+          "kwota": 9.99
+        },
+        {
+          "data": "2026-09-20",
+          "sklep": "Zakup bez paragonu",
+          "nazwa": "Książka",
+          "nazwaNaParagonie": "Książka",
+          "kwota": 50.0,
+          "ilosc": 1,
           "jednostka": "szt"
         }
       ]
@@ -1409,33 +1501,6 @@
       ]
     },
     {
-      "nazwa": "Książki",
-      "suma": 39.97,
-      "pozycje": [
-        {
-          "data": "2026-09-18",
-          "sklep": "E.Leclerc Hipermarket Ursynów",
-          "nazwa": "Tania książka",
-          "nazwaNaParagonie": "Tania książka",
-          "kwota": 12.99
-        },
-        {
-          "data": "2026-09-18",
-          "sklep": "E.Leclerc Hipermarket Ursynów",
-          "nazwa": "Mix Historia",
-          "nazwaNaParagonie": "Mix Historia",
-          "kwota": 16.99
-        },
-        {
-          "data": "2026-09-18",
-          "sklep": "E.Leclerc Hipermarket Ursynów",
-          "nazwa": "Tania książka",
-          "nazwaNaParagonie": "Tania książka",
-          "kwota": 9.99
-        }
-      ]
-    },
-    {
       "nazwa": "Rośliny / ogród",
       "suma": 31.99,
       "pozycje": [
@@ -1451,6 +1516,43 @@
       ]
     },
     {
+      "nazwa": "Gastronomia / kawiarnia",
+      "suma": 31.0,
+      "pozycje": [
+        {
+          "data": "2026-09-20",
+          "sklep": "Klubokawiarnia Pomysł BIS",
+          "nazwa": "Gofry",
+          "nazwaNaParagonie": "Gofry",
+          "kwota": 24.0,
+          "ilosc": 2,
+          "jednostka": "szt"
+        },
+        {
+          "data": "2026-09-20",
+          "sklep": "Klubokawiarnia Pomysł BIS",
+          "nazwa": "Nutella",
+          "nazwaNaParagonie": "Nutella",
+          "kwota": 7.0,
+          "ilosc": 1,
+          "jednostka": "szt"
+        }
+      ]
+    },
+    {
+      "nazwa": "Darowizna / ofiara",
+      "suma": 30.0,
+      "pozycje": [
+        {
+          "data": "2026-09-20",
+          "sklep": "Ofiara na tacę (kościół)",
+          "nazwa": "Ofiara na tacę",
+          "nazwaNaParagonie": "Ofiara na tacę",
+          "kwota": 30.0
+        }
+      ]
+    },
+    {
       "nazwa": "Zabawki",
       "suma": 29.99,
       "pozycje": [
@@ -1460,6 +1562,21 @@
           "nazwa": "Gniotek Masło Jumbo",
           "nazwaNaParagonie": "Gniotek Masło Jumbo",
           "kwota": 29.99
+        }
+      ]
+    },
+    {
+      "nazwa": "Dom / naczynia",
+      "suma": 25.0,
+      "pozycje": [
+        {
+          "data": "2026-09-20",
+          "sklep": "Zakup bez paragonu",
+          "nazwa": "Kubek",
+          "nazwaNaParagonie": "Kubek",
+          "kwota": 25.0,
+          "ilosc": 1,
+          "jednostka": "szt"
         }
       ]
     },
@@ -2902,6 +3019,145 @@
           "kategoria": "Vouchery / rabaty"
         }
       ]
+    },
+    {
+      "id": "2026-09-20-kawiarnia",
+      "sklep": "Klubokawiarnia Pomysł BIS — Aleksandra Wierzbicka",
+      "adres": "ul. Maślaków 1, 02-973 Warszawa",
+      "nip": "1132781503",
+      "dataGodzina": "2026-09-20T18:03",
+      "platnosc": "karta",
+      "dowod": "paragon-kawiarnia-2026-09-20.jpg",
+      "typ": "paragon",
+      "sumaParagonu": 31.0,
+      "pozycje": [
+        {
+          "nazwa": "Gofry",
+          "ilosc": 2,
+          "jednostka": "szt",
+          "kwota": 24.0,
+          "kategoria": "Gastronomia / kawiarnia"
+        },
+        {
+          "nazwa": "Nutella",
+          "ilosc": 1,
+          "jednostka": "szt",
+          "kwota": 7.0,
+          "kategoria": "Gastronomia / kawiarnia"
+        }
+      ],
+      "sumaPozycji": 31.0,
+      "walidacja": {
+        "sumaPozycji": 31.0,
+        "sumaParagonu": 31.0,
+        "zgadzaSie": true
+      }
+    },
+    {
+      "id": "2026-09-20-ksiazka",
+      "sklep": "Zakup bez paragonu",
+      "adres": null,
+      "nip": null,
+      "dataGodzina": "2026-09-20T12:00",
+      "platnosc": "nieznana",
+      "dowod": null,
+      "typ": "bez_paragonu",
+      "sumaParagonu": 50.0,
+      "uwaga": "Zadeklarowane przez kupującego — brak dowodu fotograficznego",
+      "pozycje": [
+        {
+          "nazwa": "Książka",
+          "ilosc": 1,
+          "jednostka": "szt",
+          "kwota": 50.0,
+          "kategoria": "Książki"
+        }
+      ],
+      "sumaPozycji": 50.0,
+      "walidacja": {
+        "sumaPozycji": 50.0,
+        "sumaParagonu": 50.0,
+        "zgadzaSie": true
+      }
+    },
+    {
+      "id": "2026-09-20-kubek",
+      "sklep": "Zakup bez paragonu",
+      "adres": null,
+      "nip": null,
+      "dataGodzina": "2026-09-20T12:01",
+      "platnosc": "nieznana",
+      "dowod": null,
+      "typ": "bez_paragonu",
+      "sumaParagonu": 25.0,
+      "uwaga": "Zadeklarowane przez kupującego — brak dowodu fotograficznego",
+      "pozycje": [
+        {
+          "nazwa": "Kubek",
+          "ilosc": 1,
+          "jednostka": "szt",
+          "kwota": 25.0,
+          "kategoria": "Dom / naczynia"
+        }
+      ],
+      "sumaPozycji": 25.0,
+      "walidacja": {
+        "sumaPozycji": 25.0,
+        "sumaParagonu": 25.0,
+        "zgadzaSie": true
+      }
+    },
+    {
+      "id": "2026-09-20-taca",
+      "sklep": "Ofiara na tacę (kościół)",
+      "adres": null,
+      "nip": null,
+      "dataGodzina": "2026-09-20T12:02",
+      "platnosc": "gotówka",
+      "dowod": null,
+      "typ": "bez_paragonu",
+      "sumaParagonu": 30.0,
+      "uwaga": "Zadeklarowane przez kupującego — brak paragonu",
+      "pozycje": [
+        {
+          "nazwa": "Ofiara na tacę",
+          "kwota": 30.0,
+          "kategoria": "Darowizna / ofiara"
+        }
+      ],
+      "sumaPozycji": 30.0,
+      "walidacja": {
+        "sumaPozycji": 30.0,
+        "sumaParagonu": 30.0,
+        "zgadzaSie": true
+      }
+    },
+    {
+      "id": "2026-09-20-ebooki",
+      "sklep": "Zakup bez paragonu (e-booki)",
+      "adres": null,
+      "nip": null,
+      "dataGodzina": "2026-09-20T12:03",
+      "platnosc": "nieznana",
+      "dowod": null,
+      "typ": "bez_paragonu",
+      "sumaParagonu": 120.0,
+      "uwaga": "Zadeklarowane przez kupującego — zestaw e-booków",
+      "pozycje": [
+        {
+          "nazwa": "Zestaw e-booków",
+          "ilosc": 1,
+          "jednostka": "szt",
+          "kwota": 120.0,
+          "kategoria": "E-booki / treści cyfrowe"
+        }
+      ],
+      "sumaPozycji": 120.0,
+      "walidacja": {
+        "sumaPozycji": 120.0,
+        "sumaParagonu": 120.0,
+        "zgadzaSie": true
+      }
     }
   ]
 }
